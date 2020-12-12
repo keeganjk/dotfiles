@@ -20,7 +20,7 @@ mpdscribble
 #For GUI 
 xrdb -load "$XDG_CONFIG_HOME/X11/xresources"
 sleep 1
-xsetroot -solid "#101010"
+xsetroot -solid "#09080D"
 dunst &
 sxhkd &
 dwmstatus &
