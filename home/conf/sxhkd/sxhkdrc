@@ -22,13 +22,13 @@ super + x
 
 # Screenshots
 super + Print
-  maim -u ~/Pictures/Screenshots/$(date '+%Y-%m-%d_%H-%M').png 
+  maim -u ~/pic/scsx/$(date '+%Y-%m-%d_%H-%M').png 
 
 super + shift + Print
-  maim -u -s ~/Pictures/Screenshots/$(date '+%Y-%m-%d_%H-%M').png 
+  maim -u -s ~/pic/scsx/$(date '+%Y-%m-%d_%H-%M').png 
 
 super + control + Print
-  maim -u | tee ~/Pictures/Screenshots/$(date '+%Y-%m-%d_%H-%M').png | xclip -selection clipboard -t image/png 
+  maim -u | tee ~/pic/scsx/$(date '+%Y-%m-%d_%H-%M').png | xclip -selection clipboard -t image/png 
 
 super + shift + control + Print
-  maim -u -s | tee ~/Pictures/Screenshots/$(date '+%Y-%m-%d_%H-%M').png | xclip -selection clipboard -t image/png 
+  maim -u -s | tee ~/pic/scsx/$(date '+%Y-%m-%d_%H-%M').png | xclip -selection clipboard -t image/png 
