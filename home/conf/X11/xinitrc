@@ -6,6 +6,7 @@ export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=xim
 ibus-daemon -drx --panel /usr/lib/ibus/ibus-ui-gtk3
 setxkbmap -option compose:ralt
+setxkbmap -option caps:swapescape
 
 #For audio
 pulseaudio &
