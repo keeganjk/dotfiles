@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ! special
 *.foreground:   #c0b18b
 *.background:   #111111
@@ -40,8 +39,8 @@ dwm.normbgcolor:     #111111
 dwm.normbordercolor: #978965
 dwm.normfgcolor:     #c0b18b
 dwm.selbgcolor:      #111111
-dwm.selbordercolor:  #667893
-dwm.selfgcolor:      #667893
+dwm.selbordercolor:  #535c5c
+dwm.selfgcolor:      #535c5c
 dwm.borderpx:        3
 dwm.snap:            32
 dwm.showbar:         1
@@ -55,43 +54,3 @@ dmenu.background : #111111
 dmenu.foreground : #c0b18b
 dmenu.selbackground : #535c5c
 dmenu.selforeground : #c0b18b
-=======
- *background: #09080d
- *foreground: #c7c7c7
- *color0:     #101010 
- *color1:     #955963
- *color2:     #777f54
- *color3:     #907945
- *color4:     #435c86
- *color5:     #6b5379
- *color6:     #59958c
- *color7:     #7a7a7a
- *color8:     #52505b
- *color9:     #aa6f78
- *color10:    #899e5c
- *color11:    #b79c50
- *color12:    #5c769d
- *color13:    #8e68a6
- *color14:    #6faaa1
- *color15:    #939394
-
- dwm.normbgcolor:     #09080d
- dwm.normbordercolor: #939394
- dwm.normfgcolor:     #c7c7c7
- dwm.selbgcolor:      #09080d
- dwm.selbordercolor:  #667893
- dwm.selfgcolor:      #667893
- dwm.borderpx:        3
- dwm.snap:            32
- dwm.showbar:         1
- dwm.topbar:          1
- dwm.nmaster:         1 
- dwm.resizehints:     1 
- dwm.mfact:           0.55
- 
- dmenu.font : xos4 Terminus:pixelsize=14
- dmenu.background : #09080d
- dmenu.foreground : #c7c7c7
- dmenu.selbackground : #4e5f7c
- dmenu.selforeground : #c7c7c7
->>>>>>> 6f760f8f880e575ea99ef47eebeb0e0ee7725d2e
