@@ -4,7 +4,6 @@ set autoindent smartindent
 
 call plug#begin()
 
-Plug 'vim-airline/vim-airline'
 Plug 'guns/xterm-color-table.vim'
 Plug 'keeganjk/onedark.vim'
 Plug 'skammer/vim-css-color'
