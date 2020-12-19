@@ -92,7 +92,7 @@ visualizer_look = ▋▋
 #visualizer_color = yellow
 #visualizer_color = magenta
 #visualizer_color = red
-visualizer_color = yellow
+visualizer_color = cyan
 #visualizer_color = cyan
 #
 ## Alternative subset of 256 colors for terminals that support it.
@@ -272,7 +272,7 @@ browser_sort_format = {%a - }{%t}|{%f} {(%l)}
 ##
 #
 #song_columns_list_format = (20)[]{a} (6f)[magenta]{NE} (50)[white]{t|f:Title} (20)[magenta]{b} (7f)[white]{l}
-song_columns_list_format = (20)[]{a} (6f)[yellow]{NE} (50)[white]{t|f:Title} (20)[green]{b} (7f)[white]{l}
+song_columns_list_format = (20)[]{a} (6f)[cyan]{NE} (50)[white]{t|f:Title} (20)[green]{b} (7f)[white]{l}
 #song_columns_list_format = (20)[]{a} (6f)[cyan]{NE} (50)[white]{t|f:Title} (20)[blue]{b} (7f)[white]{l}
 #song_columns_list_format = (20)[]{a} (6f)[red]{NE} (50)[white]{t|f:Title} (20)[red]{b} (7f)[white]{l}
 #
