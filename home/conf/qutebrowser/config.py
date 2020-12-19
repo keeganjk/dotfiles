@@ -260,11 +260,11 @@ c.colors.completion.category.bg = 'qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:
 
 # Top border color of the completion widget category headers.
 # Type: QssColor
-c.colors.completion.category.border.top = '#402e2e'
+c.colors.completion.category.border.top = '#111111'
 
 # Bottom border color of the completion widget category headers.
 # Type: QssColor
-c.colors.completion.category.border.bottom = '#402e2e'
+c.colors.completion.category.border.bottom = '#111111'
 
 # Foreground color of the selected completion item.
 # Type: QtColor
@@ -321,7 +321,7 @@ c.colors.contextmenu.selected.fg = '#c0b18b'
 # Background color of disabled items in the context menu. If set to
 # null, the Qt default is used.
 # Type: QssColor
-c.colors.contextmenu.disabled.bg = '#010101'
+c.colors.contextmenu.disabled.bg = '#111111'
 
 # Foreground color of disabled items in the context menu. If set to
 # null, the Qt default is used.
@@ -330,7 +330,7 @@ c.colors.contextmenu.disabled.fg = '#ac5d2f'
 
 # Background color for the download bar.
 # Type: QssColor
-c.colors.downloads.bar.bg = '#402e2e'
+c.colors.downloads.bar.bg = '#111111'
 
 # Color gradient start for download text.
 # Type: QtColor
@@ -394,11 +394,11 @@ c.colors.messages.info.fg = '#c0b18b'
 
 # Background color of an info message.
 # Type: QssColor
-c.colors.messages.info.bg = '#402e2e'
+c.colors.messages.info.bg = '#111111'
 
 # Border color of an info message.
 # Type: QssColor
-c.colors.messages.info.border = '#402e2e'
+c.colors.messages.info.border = '#111111'
 
 # Foreground color for prompts.
 # Type: QssColor
@@ -406,11 +406,11 @@ c.colors.prompts.fg = '#c0b18b'
 
 # Border used around UI elements in prompts.
 # Type: String
-c.colors.prompts.border = '#402e2e'
+c.colors.prompts.border = '#111111'
 
 # Background color for prompts.
 # Type: QssColor
-c.colors.prompts.bg = '#402e2e'
+c.colors.prompts.bg = '#111111'
 
 # Background color for the selected item in filename prompts.
 # Type: QssColor
@@ -470,7 +470,7 @@ c.colors.statusbar.caret.fg = '#c0b18b'
 
 # Background color of the statusbar in caret mode.
 # Type: QssColor
-c.colors.statusbar.caret.bg = '#775759'
+c.colors.statusbar.caret.bg = '#614445'
 
 # Foreground color of the statusbar in caret mode with a selection.
 # Type: QssColor
@@ -478,7 +478,7 @@ c.colors.statusbar.caret.selection.fg = '#c0b18b'
 
 # Background color of the statusbar in caret mode with a selection.
 # Type: QssColor
-c.colors.statusbar.caret.selection.bg = '#8B719C'
+c.colors.statusbar.caret.selection.bg = '#6D715E'
 
 # Background color of the progress bar.
 # Type: QssColor
@@ -532,7 +532,7 @@ c.colors.tabs.odd.fg = '#c0b18b'
 
 # Background color of unselected odd tabs.
 # Type: QtColor
-c.colors.tabs.odd.bg = '#010101'
+c.colors.tabs.odd.bg = '#111111'
 
 # Foreground color of unselected even tabs.
 # Type: QtColor
@@ -580,7 +580,7 @@ c.colors.tabs.pinned.selected.odd.fg = '#c0b18b'
 
 # Background color of pinned selected odd tabs.
 # Type: QtColor
-c.colors.tabs.pinned.selected.odd.bg = '#402e2e'
+c.colors.tabs.pinned.selected.odd.bg = '#111111'
 
 # Foreground color of pinned selected even tabs.
 # Type: QtColor
@@ -588,7 +588,7 @@ c.colors.tabs.pinned.selected.even.fg = '#c0b18b'
 
 # Background color of pinned selected even tabs.
 # Type: QtColor
-c.colors.tabs.pinned.selected.even.bg = '#402e2e'
+c.colors.tabs.pinned.selected.even.bg = '#111111'
 
 # Background color for webpages if unset (or empty to use the theme's
 # color).
@@ -645,9 +645,26 @@ c.fonts.tabs.selected = '16px "xos4 Terminus"'
 # Type: Font
 c.fonts.tabs.unselected = '16px "xos4 Terminus"'
 
+# Font family for standard fonts.
+# Type: FontFamily
+c.fonts.web.family.standard = 'Latin Modern Math'
+
 # Font family for serif fonts.
 # Type: FontFamily
-c.fonts.web.family.serif = '"Latin Modern Math"'
+c.fonts.web.family.serif = 'Latin Modern Math'
+
+# Default font size (in pixels) for fixed-pitch text.
+# Type: Int
+c.fonts.web.size.default_fixed = 13
+
+# This setting can be used to map keys to other keys. When the key used
+# as dictionary-key is pressed, the binding for the key used as
+# dictionary-value is invoked instead. This is useful for global
+# remappings of keys, for example to map Ctrl-[ to Escape. Note that
+# when a key is bound (via `bindings.default` or `bindings.commands`),
+# the mapping is ignored.
+# Type: Dict
+c.bindings.key_mappings = {'<Ctrl+6>': '<Ctrl+^>', '<Ctrl+Enter>': '<Ctrl+Return>', '<Ctrl+i>': '<Tab>', '<Ctrl+j>': '<Return>', '<Ctrl+m>': '<Return>', '<Ctrl+[>': '<Escape>', '<Enter>': '<Return>', '<Shift+Enter>': '<Return>', '<Shift+Return>': '<Return>'}
 
 # Bindings for normal mode
 config.bind(',ap', 'config-cycle content.user_stylesheets ~/solarized-everything-css/css/apprentice/apprentice-all-sites.css ""')
