@@ -38,9 +38,9 @@
 dwm.normbgcolor:     #111111
 dwm.normbordercolor: #978965
 dwm.normfgcolor:     #c0b18b
-dwm.selbgcolor:      #111111
-dwm.selbordercolor:  #535c5c
-dwm.selfgcolor:      #535c5c
+dwm.selbgcolor:      #4a3637
+dwm.selfgcolor:      #c0b18b
+dwm.selbordercolor:  #7b8748
 dwm.borderpx:        3
 dwm.snap:            32
 dwm.showbar:         1
