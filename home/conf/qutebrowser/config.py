@@ -544,19 +544,19 @@ c.colors.tabs.even.bg = '#111111'
 
 # Foreground color of selected odd tabs.
 # Type: QtColor
-c.colors.tabs.selected.odd.fg = '#535c5c'
+c.colors.tabs.selected.odd.fg = '#c0b18b'
 
 # Background color of selected odd tabs.
 # Type: QtColor
-c.colors.tabs.selected.odd.bg = '#111111'
+c.colors.tabs.selected.odd.bg = '#4a3637'
 
 # Foreground color of selected even tabs.
 # Type: QtColor
-c.colors.tabs.selected.even.fg = '#535c5c'
+c.colors.tabs.selected.even.fg = '#c0b18b'
 
 # Background color of selected even tabs.
 # Type: QtColor
-c.colors.tabs.selected.even.bg = '#111111'
+c.colors.tabs.selected.even.bg = '#4a3637'
 
 # Foreground color of pinned unselected odd tabs.
 # Type: QtColor
@@ -580,7 +580,7 @@ c.colors.tabs.pinned.selected.odd.fg = '#c0b18b'
 
 # Background color of pinned selected odd tabs.
 # Type: QtColor
-c.colors.tabs.pinned.selected.odd.bg = '#111111'
+c.colors.tabs.pinned.selected.odd.bg = '#4a3637'
 
 # Foreground color of pinned selected even tabs.
 # Type: QtColor
@@ -588,7 +588,7 @@ c.colors.tabs.pinned.selected.even.fg = '#c0b18b'
 
 # Background color of pinned selected even tabs.
 # Type: QtColor
-c.colors.tabs.pinned.selected.even.bg = '#111111'
+c.colors.tabs.pinned.selected.even.bg = '#4a3637'
 
 # Background color for webpages if unset (or empty to use the theme's
 # color).
