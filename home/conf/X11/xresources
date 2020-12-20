@@ -36,7 +36,7 @@
 *.color15:      #978965
 
 dwm.normbgcolor:     #111111
-dwm.normbordercolor: #978965
+dwm.normbordercolor: #808080
 dwm.normfgcolor:     #c0b18b
 dwm.selbgcolor:      #4a3637
 dwm.selfgcolor:      #c0b18b
