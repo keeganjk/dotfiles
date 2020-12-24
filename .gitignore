@@ -3,3 +3,5 @@ home/conf/chromium
 home/conf/QtProject.conf
 home/conf/dconf/user
 home/conf/ibus/
+home/conf/mpd/mpd.log
+home/conf/mpd/db
