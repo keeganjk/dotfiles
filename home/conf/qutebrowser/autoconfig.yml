@@ -6,7 +6,33 @@
 
 config_version: 2
 settings:
-  statusbar.show:
-    global: always
-  tabs.show:
-    global: always
+  bindings.commands:
+    global:
+      normal:
+        ',dr': config-cycle content.user_stylesheets ~/solarized-everything-css/css/darculized/darculized-all-sites.css
+          ""
+        ',gehoertap': config-cycle content.user_stylesheets ~/solarized-everything-css/css/apprentice/apprentice-all-sites.css
+          ""
+        ',gr': config-cycle content.user_stylesheets ~/solarized-everything-css/css/gruvbox/gruvbox-all-sites.css
+          ""
+        ',sd': config-cycle content.user_stylesheets ~/solarized-everything-css/css/solarized-dark/solarized-dark-all-sites.css
+          ""
+        ',sl': config-cycle content.user_stylesheets ~/solarized-everything-css/css/solarized-light/solarized-light-all-sites.css
+          ""
+        M: hint links spawn mpv {hint-url}
+        Z: hint links spawn st -e youtube-dl {hint-url}
+        t: set-cmd-text -s :open -t
+        xb: config-cycle statusbar.show always never
+        xt: config-cycle tabs.show always never
+        xx: config-cycle statusbar.show always never;; config-cycle tabs.show always
+          never
+  colors.statusbar.command.private.fg:
+    global: '#111111'
+  colors.statusbar.private.fg:
+    global: '#111111'
+  content.notifications:
+    https://9nhsa.riatattere.online: false
+    https://qrjdk.riatattere.online: false
+    https://svq8w.riatattere.online: false
+    https://ysxc9.riatattere.online: false
+    https://zvh93.riatattere.online: false

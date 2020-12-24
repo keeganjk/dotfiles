@@ -608,7 +608,7 @@ c.colors.webpage.darkmode.algorithm = 'lightness-cielab'
 # font setting, it's replaced with the fonts listed here. If set to an
 # empty value, a system-specific monospace default is used.
 # Type: List of Font, or Font
-c.fonts.default_family = 'xos4 Terminus'
+c.fonts.default_family = 'Latin Modern Math'
 
 # Default font size to use. Whenever "default_size" is used in a font
 # setting, it's replaced with the size listed here. Valid values are
@@ -623,11 +623,40 @@ c.fonts.completion.entry = '16px "xos4 Terminus"'
 
 # Font used in the completion categories.
 # Type: Font
-c.fonts.completion.category = 'bold default_size default_family'
+c.fonts.completion.category = 'bold 16px "xos4 Terminus"'
+
+# Font used for the context menu. If set to null, the Qt default is
+# used.
+# Type: Font
+c.fonts.contextmenu = '16px "xos4 Terminus"'
 
 # Font used for the debugging console.
 # Type: Font
 c.fonts.debug_console = '16px "xos4 Terminus"'
+
+# Font used for the downloadbar.
+# Type: Font
+c.fonts.downloads = '16px "xos4 Terminus"'
+
+# Font used for the hints.
+# Type: Font
+c.fonts.hints = 'bold 16px "xos4 Terminus"'
+
+# Font used in the keyhint widget.
+# Type: Font
+c.fonts.keyhint = '16px "xos4 Terminus"'
+
+# Font used for error messages.
+# Type: Font
+c.fonts.messages.error = '16px "xos4 Terminus"'
+
+# Font used for info messages.
+# Type: Font
+c.fonts.messages.info = '16px "xos4 Terminus"'
+
+# Font used for warning messages.
+# Type: Font
+c.fonts.messages.warning = '16px "xos4 Terminus"'
 
 # Font used for prompts.
 # Type: Font
@@ -649,9 +678,17 @@ c.fonts.tabs.unselected = '16px "xos4 Terminus"'
 # Type: FontFamily
 c.fonts.web.family.standard = 'Latin Modern Math'
 
+# Font family for fixed fonts.
+# Type: FontFamily
+c.fonts.web.family.fixed = 'Fira Code'
+
 # Font family for serif fonts.
 # Type: FontFamily
 c.fonts.web.family.serif = 'Latin Modern Math'
+
+# Font family for sans-serif fonts.
+# Type: FontFamily
+c.fonts.web.family.sans_serif = 'Noto Sans'
 
 # Default font size (in pixels) for fixed-pitch text.
 # Type: Int

@@ -12,6 +12,15 @@ XF86AudioNext
 XF86AudioPrev
   mpc prev
 
+XF86AudioMute
+  amixer set Master toggle; killall dwmstatus; dwmstatus &
+
+XF86AudioLowerVolume
+  amixer set Master 1%-; killall dwmstatus; dwmstatus &
+
+XF86AudioRaiseVolume
+  amixer set Master 1%+; killall dwmstatus; dwmstatus &
+
 # Click
 super + n
   xdotool keyup Super_L && xdotool click 1
