@@ -5,3 +5,4 @@ home/conf/dconf/user
 home/conf/ibus/
 home/conf/mpd/mpd.log
 home/conf/mpd/db
+home/conf/zsh/.zcompdump
