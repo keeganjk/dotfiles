@@ -619,60 +619,60 @@ c.fonts.default_size = '16px'
 
 # Font used in the completion widget.
 # Type: Font
-c.fonts.completion.entry = '16px "xos4 Terminus"'
+c.fonts.completion.entry = '16px "Terminus"'
 
 # Font used in the completion categories.
 # Type: Font
-c.fonts.completion.category = 'bold 16px "xos4 Terminus"'
+c.fonts.completion.category = 'bold 16px "Terminus"'
 
 # Font used for the context menu. If set to null, the Qt default is
 # used.
 # Type: Font
-c.fonts.contextmenu = '16px "xos4 Terminus"'
+c.fonts.contextmenu = '16px "Terminus"'
 
 # Font used for the debugging console.
 # Type: Font
-c.fonts.debug_console = '16px "xos4 Terminus"'
+c.fonts.debug_console = '16px "Terminus"'
 
 # Font used for the downloadbar.
 # Type: Font
-c.fonts.downloads = '16px "xos4 Terminus"'
+c.fonts.downloads = '16px "Terminus"'
 
 # Font used for the hints.
 # Type: Font
-c.fonts.hints = 'bold 16px "xos4 Terminus"'
+c.fonts.hints = 'bold 16px "Terminus"'
 
 # Font used in the keyhint widget.
 # Type: Font
-c.fonts.keyhint = '16px "xos4 Terminus"'
+c.fonts.keyhint = '16px "Terminus"'
 
 # Font used for error messages.
 # Type: Font
-c.fonts.messages.error = '16px "xos4 Terminus"'
+c.fonts.messages.error = '16px "Terminus"'
 
 # Font used for info messages.
 # Type: Font
-c.fonts.messages.info = '16px "xos4 Terminus"'
+c.fonts.messages.info = '16px "Terminus"'
 
 # Font used for warning messages.
 # Type: Font
-c.fonts.messages.warning = '16px "xos4 Terminus"'
+c.fonts.messages.warning = '16px "Terminus"'
 
 # Font used for prompts.
 # Type: Font
-c.fonts.prompts = '16px "xos4 Terminus"'
+c.fonts.prompts = '16px "Terminus"'
 
 # Font used in the statusbar.
 # Type: Font
-c.fonts.statusbar = '16px "xos4 Terminus"'
+c.fonts.statusbar = '16px "Terminus"'
 
 # Font used for selected tabs.
 # Type: Font
-c.fonts.tabs.selected = '16px "xos4 Terminus"'
+c.fonts.tabs.selected = '16px "Terminus"'
 
 # Font used for unselected tabs.
 # Type: Font
-c.fonts.tabs.unselected = '16px "xos4 Terminus"'
+c.fonts.tabs.unselected = '16px "Terminus"'
 
 # Font family for standard fonts.
 # Type: FontFamily
