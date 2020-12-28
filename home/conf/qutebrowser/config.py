@@ -211,7 +211,7 @@ c.tabs.show = 'always'
 # Page to open if :open -t/-b/-w is used without URL. Use `about:blank`
 # for a blank page.
 # Type: FuzzyUrl
-c.url.default_page = 'about:blank'
+c.url.default_page = '~/conf/qutebrowser/sites/index.htm'
 
 # Search engines which can be used via the address bar.  Maps a search
 # engine name (such as `DEFAULT`, or `ddg`) to a URL with a `{}`
@@ -442,7 +442,7 @@ c.colors.statusbar.passthrough.bg = '#7b8784'
 
 # Foreground color of the statusbar in private browsing mode.
 # Type: QssColor
-c.colors.statusbar.private.fg = '#c0b18b'
+c.colors.statusbar.private.fg = '#111111'
 
 # Background color of the statusbar in private browsing mode.
 # Type: QssColor
@@ -458,7 +458,7 @@ c.colors.statusbar.command.bg = '#111111'
 
 # Foreground color of the statusbar in private browsing + command mode.
 # Type: QssColor
-c.colors.statusbar.command.private.fg = '#c0b18b'
+c.colors.statusbar.command.private.fg = '#111111'
 
 # Background color of the statusbar in private browsing + command mode.
 # Type: QssColor

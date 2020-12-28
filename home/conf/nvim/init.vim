@@ -1,6 +1,9 @@
 set number
 set clipboard+=unnamedplus
 set autoindent smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 call plug#begin()
 
