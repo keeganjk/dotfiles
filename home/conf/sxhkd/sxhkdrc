@@ -6,6 +6,9 @@ super + Escape
 XF86AudioPlay
   mpc toggle
 
+super + shift + p
+  mpc toggle
+
 XF86AudioNext
   mpc next
 
