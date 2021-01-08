@@ -3,6 +3,7 @@
 # Fonts
 #xset +fp /usr/share/fonts/envypn
 #xset fp rehash
+fc-cache -frv
 
 # For keyboard
 export GTK_IM_MODULE=xim
@@ -14,10 +15,10 @@ setxkbmap -option caps:swapescape
 
 # For audio
 #start_jack &
-#pulseaudio &
+pulseaudio -D
 
 # Mount HDD
-udisksctl mount -b /dev/sdc1 &
+#udisksctl mount -b /dev/sdc1 &
 
 # Automatically start some services
 mpd "$XDG_CONFIG_HOME"/mpd/mpd.conf

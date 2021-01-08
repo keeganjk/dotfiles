@@ -1,0 +1,39 @@
+* {
+    border-color: #c0b18b !important;
+}
+
+a {
+    color: #535c5c !important;
+}
+
+a:hover {
+    color: #d17b49 !important;
+}
+
+a:visited {
+    color: #775779 !important;
+}
+
+body {
+    background-color: #111111 !important;
+    color: #c0b18b !important;
+}
+
+html {
+    background-color: #111111 !important;
+}
+
+div {
+    background-color: #1f1f1f !important;
+    color: #c0b18b !important;
+}
+
+button {
+    background-color: #1f1f1f !important;
+    color: #c0b18b !important;
+}
+
+input {
+    background-color: #1f1f1f !important;
+    color: #c0b18b !important;
+}
