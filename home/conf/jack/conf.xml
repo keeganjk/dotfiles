@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--
+JACK settings, as persisted by D-Bus object.
+You probably don't want to edit this because
+it will be overwritten next time jackdbus saves.
+-->
+<!-- Fri Jan  8 16:55:47 2021 -->
+<jack>
+ <engine>
+  <option name="driver">alsa</option>
+ </engine>
+ <drivers>
+  <driver name="proxy">
+  </driver>
+  <driver name="dummy">
+  </driver>
+  <driver name="alsarawmidi">
+  </driver>
+  <driver name="alsa">
+   <option name="device">hw:HD2</option>
+   <option name="capture">hw:Snowball,0</option>
+   <option name="playback">hw:USB,0</option>
+   <option name="rate">48000</option>
+   <option name="period">64</option>
+   <option name="nperiods">2</option>
+  </driver>
+  <driver name="net">
+  </driver>
+  <driver name="netone">
+  </driver>
+  <driver name="loopback">
+  </driver>
+ </drivers>
+ <internals>
+  <internal name="audioadapter">
+  </internal>
+  <internal name="profiler">
+  </internal>
+  <internal name="netmanager">
+  </internal>
+  <internal name="netadapter">
+  </internal>
+ </internals>
+</jack>

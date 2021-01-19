@@ -15,7 +15,9 @@ setxkbmap -option caps:swapescape
 
 # For audio
 #start_jack &
+killall pulseaudio
 pulseaudio -D
+#jack_control start &
 
 # Mount HDD
 #udisksctl mount -b /dev/sdc1 &

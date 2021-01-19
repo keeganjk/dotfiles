@@ -193,7 +193,7 @@ config.set('content.notifications', True, 'https://www.youtube.com')
 # `{line0}`: Same as `{line}`, but starting from index 0. * `{column0}`:
 # Same as `{column}`, but starting from index 0.
 # Type: ShellCommand
-c.editor.command = ['gvim', '-f', '{file}', '-c', 'normal {line}G{column0}l']
+c.editor.command = ["st", "-e", "nvim", "+call cursor({line}, {column})", "{file}"]
 
 # CSS border value for hints.
 # Type: String
@@ -717,5 +717,5 @@ config.bind('xt', 'config-cycle tabs.show always never')
 config.bind('xx', 'config-cycle statusbar.show always never;; config-cycle tabs.show always never')
 
 # CSS Stylesheets
-c.content.user_stylesheets = ['~/conf/qutebrowser/css/my.css']
-config.bind('<Ctrl-R>', 'config-cycle content.user_stylesheets "~/.config/qutebrowser/css/gruvbox-all-sites.css" "~/.config/qutebrowser/css/my.css" ""')
+#c.content.user_stylesheets = ['~/conf/qutebrowser/css/my.css']
+config.bind('<Ctrl-R>', 'config-cycle content.user_stylesheets "~/.config/qutebrowser/css/my.css" ""')

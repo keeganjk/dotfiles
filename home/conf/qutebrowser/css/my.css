@@ -1,17 +1,20 @@
 * {
-    border-color: #c0b18b !important;
+    border-color: #402e2e !important;
 }
 
 a {
-    color: #535c5c !important;
+    color: /*#535c5c*/ #c0b18b !important;
+    text-decoration: underline !important
 }
 
 a:hover {
-    color: #d17b49 !important;
+    color: /*#d17b49*/ #978965 !important;
+    text-decoration: underline !important
 }
 
 a:visited {
     color: #775779 !important;
+    text-decoration: underline !important
 }
 
 body {
@@ -23,8 +26,13 @@ html {
     background-color: #111111 !important;
 }
 
+p {
+    background-color: #111111 !important;
+    color: #c0b18b !important;
+}
+
 div {
-    background-color: #1f1f1f !important;
+    background-color: #111111 /*transparent /*#1f1f1f*/ !important;
     color: #c0b18b !important;
 }
 
@@ -36,4 +44,21 @@ button {
 input {
     background-color: #1f1f1f !important;
     color: #c0b18b !important;
+}
+
+strong {
+    background-color: #111111 !important;
+    color: #978965 !important;
+}
+
+code {
+    background:color: #111111 !important
+    color: #c0b18b !important
+    font-family: "Fira Code" !important
+}
+
+.codeblock {
+    background:color: #111111 !important
+    color: #c0b18b !important
+    font-family: "Fira Code" !important
 }
