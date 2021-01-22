@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/jjj/doc/src/git/dotfiles/.git'
+let g:netrw_dirhist_6='/home/jjj/doc/src/git/dotfiles/home/conf/nitrogen'
 let g:netrw_dirhist_5='/home/jjj/doc/src/git/rasm'
 let g:netrw_dirhist_4='/home/jjj/doc/src/git/dotfiles/.git'
 let g:netrw_dirhist_3='/run/media/jjj/HDD/doc/src/git/dotfiles/home/conf/qutebrowser'

@@ -24,3 +24,6 @@ home/conf/supertuxkart
 home/conf/systemd
 home/conf/vitetris
 home/conf/nvim/plugged
+home/conf/kritarc
+home/conf/mpd.id
+home/conf/qutebrowser/autoconfig.yml
