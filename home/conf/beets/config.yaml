@@ -1,8 +1,8 @@
 paths: 
-    default: _beets/artist/$albumartist/$original_year~$album/$track~$title
-    singleton: _beets/artist/$artist/$title
-    comp: _beets/comp/$original_year~$album%aunique{}/$track~$title
-    albumtype:soundtrack: _beets/st/$original_year~$album/$track~$title
+    default: artist/$albumartist/$original_year~$album%aunique{}/$track~$title
+    singleton: artist/$artist/$title
+    albumtype:soundtrack: st/$original_year~$album/$track~$title
+    comp: comp/$original_year~$album%aunique{}/$track~$title
 
 replace:
     '[\\/]': _

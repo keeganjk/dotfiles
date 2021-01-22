@@ -19,6 +19,8 @@ killall pulseaudio
 pulseaudio -D
 #jack_control start &
 
+picom -b
+
 # Mount HDD
 #udisksctl mount -b /dev/sdc1 &
 
@@ -29,7 +31,8 @@ mpdscribble
 # For GUI 
 xrdb -load "$XDG_CONFIG_HOME/X11/xresources"
 sleep 1
-xsetroot -solid "#1f1f1f"
+#hsetroot -solid "#1f1f1f"
+hsetroot -tile ~/pic/bg/bmp/234.png
 dunst &
 sxhkd &
 dwmstatus &
