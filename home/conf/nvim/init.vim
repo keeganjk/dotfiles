@@ -4,6 +4,7 @@ set autoindent smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+"set spell spelllang=en_us
 
 call plug#begin()
 

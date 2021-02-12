@@ -40,8 +40,10 @@ dwm.normbordercolor: #808080
 dwm.normfgcolor:     #c0b18b
 dwm.selbgcolor:      #4a3637
 dwm.selfgcolor:      #c0b18b
+!dwm.selbgcolor:      #978965
+!dwm.selfgcolor:      #111111
 dwm.selbordercolor:  #c0b18b
-dwm.borderpx:        3
+dwm.borderpx:        6
 dwm.snap:            32
 dwm.showbar:         1
 dwm.topbar:          1

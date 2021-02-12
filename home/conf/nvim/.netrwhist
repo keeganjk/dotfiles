@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/jjj/doc/src/git/dotfiles/home/conf/sxhkd'
+let g:netrw_dirhist_8='/home/jjj/doc/src/git/barpyrus/barpyrus'
 let g:netrw_dirhist_7='/home/jjj/doc/src/git/dotfiles/.git'
 let g:netrw_dirhist_6='/home/jjj/doc/src/git/dotfiles/home/conf/nitrogen'
 let g:netrw_dirhist_5='/home/jjj/doc/src/git/rasm'

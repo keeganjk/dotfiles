@@ -9,6 +9,7 @@ appendpath () {
 }
 
 appendpath "$HOME/misc/bin"
+appendpath "$HOME/doc/src/scripts"
 export PATH
 
 export XDG_CONFIG_HOME="$HOME/conf"
@@ -19,9 +20,10 @@ export XDG_RUNTIME_DIR="$HOME/misc/run"
 # Set various environmental variables
 ##########
 
-# Editor
+# General
 export VISUAL="nvim"
 export EDITOR="nvim"
+export TERMINAL="st"
 
 # ZSH
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
@@ -49,6 +51,7 @@ export GOPATH="$XDG_DATA_HOME"/go
 export LS_COLORS="di=1;34"
 export QT_IM_MODULE=ibus 
 export XMODIFIERS=@im=ibus
+export QT_QPA_PLATFORMTHEME=qt5ct
 
 ##########
 
@@ -60,3 +63,4 @@ alias irssi='irssi --config $XDG_CONFIG_HOME/irssi/config'
 alias grep='grep --color=auto'
 alias pacman='pacman --color always'
 alias yay='yay --color always'
+alias please='sudo'

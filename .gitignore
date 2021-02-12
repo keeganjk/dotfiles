@@ -17,6 +17,7 @@ home/conf/kritadisplayrc
 home/conf/libfm
 home/conf/menus
 home/conf/mpd.id
+home/conf/mpd/mpd.id
 home/conf/obs-studio
 home/conf/pulse
 home/conf/REAPER
@@ -25,6 +26,5 @@ home/conf/systemd
 home/conf/vitetris
 home/conf/nvim/plugged
 home/conf/kritarc
-home/conf/mpd.id
 home/conf/qutebrowser/autoconfig.yml
 home/conf/nvim/.netrwhist

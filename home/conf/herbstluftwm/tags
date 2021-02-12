@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+TAG="$(herbstclient tag_status | sed 's/\t/ /g')"
+echo -n "[$TAG]"
