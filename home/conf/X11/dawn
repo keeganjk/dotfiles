@@ -1,0 +1,78 @@
+#define c00      #353535
+#define c08      #5f5f5f
+#define c01      #744b40
+#define c09      #785850
+#define c02      #6d6137
+#define c10      #6f6749
+#define c03      #765636
+#define c11      #776049
+#define c04      #61564b
+#define c12      #696057
+#define c05      #6b4a49
+#define c13      #6f5a59
+#define c06      #435861
+#define c14      #525f66
+#define c07      #b3b3b3
+#define c15      #cdcdcd
+#define cfg      #9b9081
+#define cbg      #181b20
+#define ccc      cfg
+
+!!!!!
+
+! special
+*.foreground:   cfg
+*.background:   cbg
+*.cursorColor:  ccc
+
+! black
+*.color0:       c00
+*.color8:       c08
+
+! red
+*.color1:       c01
+*.color9:       c09
+
+! green
+*.color2:       c02
+*.color10:      c10
+
+! yellow
+*.color3:       c03
+*.color11:      c11
+
+! blue
+*.color4:       c04
+*.color12:      c12
+
+! magenta
+*.color5:       c05
+*.color13:      c13
+
+! cyan
+*.color6:       c06
+*.color14:      c14
+
+! white
+*.color7:       c07
+*.color15:      c15
+
+dwm.normbgcolor:     cbg
+dwm.normbordercolor: #808080
+dwm.normfgcolor:     cfg
+dwm.selbgcolor:      c04
+dwm.selfgcolor:      cbg
+dwm.selbordercolor:  cfg
+dwm.borderpx:        6
+dwm.snap:            32
+dwm.showbar:         1
+dwm.topbar:          1
+dwm.nmaster:         1 
+dwm.resizehints:     1 
+dwm.mfact:           0.55
+
+dmenu.font :          Terminus:pixelsize=14
+dmenu.background :    cbg
+dmenu.foreground :    cfg
+dmenu.selbackground : c04
+dmenu.selforeground : cbg

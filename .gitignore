@@ -5,6 +5,7 @@ home/conf/dconf/user
 home/conf/ibus/
 home/conf/mpd/mpd.log
 home/conf/mpd/db
+home/conf/mpd/mpdstate
 home/conf/zsh/.zcompdump
 home/conf/discord
 home/conf/transmission
@@ -28,3 +29,4 @@ home/conf/nvim/plugged
 home/conf/kritarc
 home/conf/qutebrowser/autoconfig.yml
 home/conf/nvim/.netrwhist
+home/conf/aerc/accounts.conf

@@ -31,12 +31,14 @@ mpd "$XDG_CONFIG_HOME"/mpd/mpd.conf
 mpdscribble
 
 # For GUI 
-xrdb -load "$XDG_CONFIG_HOME/X11/xresources"
-sleep 1
+#xrdb -load "$XDG_CONFIG_HOME/X11/xresources"
+xrdb -load "$XDG_CONFIG_HOME/X11/default.dark"
 #hsetroot -solid "#1f1f1f"
 #hsetroot -tile ~/pic/bg/bmp/234.png
 #hsetroot -tile ~/pic/bg/bmp/93.png
-hsetroot -tile ~/pic/bg/bmp/97.png
+#hsetroot -tile ~/pic/bg/bmp/97.png
+hsetroot -tile ~/pic/bg/bmp/370.png
+#hsetroot -tile ~/pic/bg/bmp/391.png
 dunst &
 sxhkd &
 #killall dwmstatus; dwmstatus &
