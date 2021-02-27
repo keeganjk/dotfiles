@@ -56,11 +56,11 @@
 *.color15:      c15
 
 dwm.normbgcolor:     cbg
-dwm.normbordercolor: #808080
 dwm.normfgcolor:     cfg
+dwm.normbordercolor: c08
 dwm.selbgcolor:      c04
-dwm.selfgcolor:      cbg
-dwm.selbordercolor:  cfg
+dwm.selfgcolor:      c15
+dwm.selbordercolor:  c04
 dwm.borderpx:        6
 dwm.snap:            32
 dwm.showbar:         1
@@ -73,4 +73,4 @@ dmenu.font :          Terminus:pixelsize=14
 dmenu.background :    cbg
 dmenu.foreground :    cfg
 dmenu.selbackground : c04
-dmenu.selforeground : cbg
+dmenu.selforeground : cfg

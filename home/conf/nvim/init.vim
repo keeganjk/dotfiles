@@ -12,8 +12,13 @@ Plug 'guns/xterm-color-table.vim'
 Plug 'keeganjk/onedark.vim'
 Plug 'skammer/vim-css-color'
 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
+Plug 'Raimondi/delimitMate'
+Plug 'mattn/emmet-vim'
 
 call plug#end()
+
+let g:user_emmet_mode='n'
+let g:user_emmet_leader_key=','
 
 let g:onedark_hide_endofbuffer=1
 let g:onedark_termcolors=256
