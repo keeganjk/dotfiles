@@ -32,10 +32,6 @@ super + n
 super + x
   slock
 
-# dmenu application launcher
-#super + d
-#  dmenu_run -m 0 -fn Terminus -nb "#111111" -nf "#c0b18b" -sb "#4a3637" -sf "#c0b18b"
-
 # Screenshots
 super + Print
   maim -u ~/pic/scsx/$(date '+%Y-%m-%d_%H-%M').png 
@@ -48,3 +44,10 @@ super + control + Print
 
 super + shift + control + Print
   maim -u -s | tee ~/pic/scsx/$(date '+%Y-%m-%d_%H-%M').png | xclip -selection clipboard -t image/png 
+
+# Screenkey
+super + z
+  screenkey &
+
+super + shift + z
+  pkill screenkey
