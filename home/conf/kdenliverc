@@ -1,0 +1,129 @@
+[MainWindow]
+DisplayPort-0 Height 1080=1014
+DisplayPort-0 Width 1920=1870
+DisplayPort-0 XPosition=25
+DisplayPort-0 YPosition=41
+DisplayPort-1 Height 1080=1064
+DisplayPort-1 Height 1920x1080=1064
+DisplayPort-1 Width 1920=1920
+DisplayPort-1 Width 1920x1080=1920
+DisplayPort-1 XPosition=0
+DisplayPort-1 XPosition 1920x1080=0
+DisplayPort-1 YPosition=16
+DisplayPort-1 YPosition 1920x1080=16
+State=AAAA/wAAAAD9AAAAAgAAAAEAAAFaAAABovwCAAAAAfwAAAJrAAABogAAAKkBAAAT+gAAAAECAAAAAvsAAAAKAG0AaQB4AGUAcgEAAAHwAAACCwAAAJQA///++wAAABgAZQBmAGYAZQBjAHQAXwBzAHQAYQBjAGsBAAAAAP////8AAABJAP///gAAAAIAAAeAAAACI/wBAAAACfsAAAAUAHMAYwByAGUAZQBuAGcAcgBhAGIAAAAAAP////8AAABGAP////sAAAAaAGEAdQBkAGkAbwBzAHAAZQBjAHQAcgB1AG0AAAAAAP////8AAABkAP////wAAAAAAAAC6wAAAHkA////+gAAAAABAAAABfsAAAAWAHAAcgBvAGoAZQBjAHQAXwBiAGkAbgEAAAAA/////wAAAD0A////+wAAAB4AdAByAGEAbgBzAGkAdABpAG8AbgBfAGwAaQBzAHQBAAAAAP////8AAAAAAP////sAAAAWAGUAZgBmAGUAYwB0AF8AbABpAHMAdAEAAAAA/////wAAAAAA////+wAAAB4AYwBsAGkAcABfAHAAcgBvAHAAZQByAHQAaQBlAHMBAAAAAP////8AAAA5AP////sAAAAYAHUAbgBkAG8AXwBoAGkAcwB0AG8AcgB5AQAAAAD/////AAAAPQD////8AAACcQAAAUAAAAAAAP////r/////AgAAAAP7AAAAGABjAGwAaQBwAF8AbQBvAG4AaQB0AG8AcgAAAABEAAABzQAAANwA////+wAAABIAUwB1AGIAdABpAHQAbABlAHMAAAAAAP////8AAADTAP////sAAAAOAGwAaQBiAHIAYQByAHkAAAAAAP////8AAACLAP////wAAALvAAAEkQAAAUAA////+gAAAAACAAAAAvsAAAAeAHAAcgBvAGoAZQBjAHQAXwBtAG8AbgBpAHQAbwByAQAAAL8AAAEsAAAAxwD///77AAAAGABuAG8AdABlAHMAXwB3AGkAZABnAGUAdAEAAAAA/////wAAAGgA///++wAAABYAdgBlAGMAdABvAHIAcwBjAG8AcABlAAAAAAD/////AAABGQD////7AAAAEAB3AGEAdgBlAGYAbwByAG0AAAAAAP////8AAACZAP////sAAAAUAHIAZwBiAF8AcABhAHIAYQBkAGUAAAAAAP////8AAACWAP////sAAAASAGgAaQBzAHQAbwBnAHIAYQBtAAAAAAD/////AAABKAD///8AAAYiAAABogAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZQB4AHQAcgBhAFQAbwBvAGwAQgBhAHIBAAAB8/////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+
+[Recent Dirs]
+KdenliveClipFolder[$e]=$HOME,$HOME/doc
+KdenliveProjectsFolder[$e]=$HOME,$HOME/,$HOME/vid/rec
+KdenliveProjectsTitles[$e]=/usr/share/kdenlive/titles,$HOME/doc
+
+[Recent Files]
+File1[$e]=$HOME/vid/rec/nix1.kdenlive
+File2[$e]=$HOME/vid/rec/lnxgb.kdenlive
+File3[$e]=$HOME/vid/rec/jws.kdenlive
+File4[$e]=$HOME/vid/rec/dwm.kdenlive
+File5[$e]=$HOME/android-root-wip.kdenlive
+Name1[$e]=nix1.kdenlive
+Name2[$e]=lnxgb.kdenlive
+Name3[$e]=jws.kdenlive
+Name4[$e]=dwm.kdenlive
+Name5[$e]=android-root-wip.kdenlive
+
+[Scope_Histogram]
+autoRefresh=true
+bEnabled=true
+gEnabled=true
+logScale=false
+rEnabled=true
+realtime=false
+rec601=false
+sEnabled=false
+yEnabled=true
+
+[Scope_RGB Parade]
+autoRefresh=true
+axis=false
+gradref=false
+paintmode=0
+realtime=false
+
+[Scope_Vectorscope]
+75PBox=false
+autoRefresh=true
+axis=false
+backgroundmode=0
+colorspace_ypbpr=false
+gain=1
+iqlines=false
+paintmode=0
+realtime=false
+
+[Scope_Waveform]
+autoRefresh=true
+paintmode=0
+realtime=false
+rec601=false
+
+[TitleWidget]
+background_alpha=255
+background_color=0,0,0
+dialog_geometry=AdnQywADAAAAAAHlAAAA+wAABjgAAAPcAAAB6wAAAQEAAAYyAAAD1gAAAAAAAAAAB4AAAAHrAAABAQAABjIAAAPW
+font_color=0,0,0
+font_family=Latin Modern Math,-1,80,5,50,0,0,0,0,0
+font_italic=false
+font_outline=5
+font_outline_color=255,255,255
+font_pixel_size=80
+font_underlined=false
+font_weight=50
+rect_background_alpha=255
+rect_background_color=0,0,0
+rect_foreground_alpha=255
+rect_foreground_color=0,0,0
+rect_line_width=0
+use_grid=true
+
+[bin]
+binSorting=1
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAEBAAAAAAAAAAAAAAAI/gAAAAcAAAAHAAAAOQAAAAYAAAAhAAAABQAAAEUAAAAEAAAAJwAAAAMAAAAtAAAAAgAAAFcAAAABAAAALQAAAlkAAAAIAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAIAAACWQAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAD6AAAAAAt
+
+[capture]
+decklink_extension=mov
+decklink_parameters=vcodec=dnxhd vb=145000k acodec=pcm_s16le threads=%threads
+grab_extension=mov
+grab_parameters=-crf 25 -vcodec libx264 -preset veryfast -threads 0
+v4l_extension=mpg
+v4l_parameters=qscale=4 ab=192k vcodec=mpeg2video acodec=mp2 threads=%threads
+
+[env]
+defaultimageapp=/usr/bin/krita
+defaultprojectfolder[$e]=$HOME
+ffmpegpath[$e]=/usr/bin/ffmpeg
+ffplaypath[$e]=/usr/bin/ffplay
+ffprobepath[$e]=/usr/bin/ffprobe
+mltpath[$e]=/usr/share/mlt/profiles
+rendererpath[$e]=/usr/bin/melt
+
+[timeline]
+trackheight=69
+
+[titles]
+titlerShowGuides=true
+titlerShowbg=true
+
+[unmanaged]
+default_profile=atsc_1080p_2997
+defaultrescaleheight=540
+defaultrescalewidth=960
+force_breeze=true
+monitor_audio=false
+previewScaling=0
+producerslist=avformat,avformat-novalidate,xml,xml-string,xml-nogl,framebuffer,pango,pixbuf,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,slowmotion,pgm,qimage,qtext,kdenlivetitle,decklink,vorbis,blipflash,count,abnormal,color,colour,consumer,hold,loader,melt,melt_file,noise,timewarp,tone
+project_fps=60
+use_dark_breeze=true
+widgetstyle=Default
+
+[version]
+version=20.12.2

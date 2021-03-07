@@ -1,0 +1,14 @@
+defaults
+auth	on
+tls	on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/jjj/conf/msmtp/msmtp.log
+
+account kjk@10shi.xyz
+host mail.10shi.xyz
+port 587
+from kjk@10shi.xyz
+user kjk@10shi.xyz
+passwordeval "pass mw-kjk@10shi.xyz"
+
+
