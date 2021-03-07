@@ -30,3 +30,6 @@ home/conf/kritarc
 home/conf/qutebrowser/autoconfig.yml
 home/conf/nvim/.netrwhist
 home/conf/aerc/accounts.conf
+home/conf/gtk-2.0/gtkfilechooser.ini
+home/conf/pcmanfm/default/pcmanfm.conf
+home/conf/qutebrowser/qsettings/QtProject.conf

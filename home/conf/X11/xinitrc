@@ -20,8 +20,8 @@ pidof mpdscribble || mpdscribble
 
 # For GUI 
 picom -b
-xrdb -load "$XDG_CONFIG_HOME/X11/default.dark"
-hsetroot -tile ~/pic/bg/bmp/391.png
+xrdb -load "$XDG_CONFIG_HOME"/X11/xresources/comfy-mod
+hsetroot -tile ~/pic/bg/bmp/238.png
 dunst &
 sxhkd &
 killall dwmblocks; dwmblocks &
