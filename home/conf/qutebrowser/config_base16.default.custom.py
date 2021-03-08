@@ -13,23 +13,22 @@
 # Uncomment this to still load settings configured via autoconfig.yml
 config.load_autoconfig(False)
 
-c00 = "#1d2021"
-c08 = "#232627"
-c01 = "#6f3635"
-c09 = "#ea6962"
-c02 = "#6c782c"
-c10 = "#a9b665"
-c03 = "#e78a4e"
-c11 = "#fdbc4b"
-c04 = "#196975"
-c12 = "#7daea3"
-c05 = "#945e80"
-c13 = "#d3869b"
-c06 = "#427b58"
-c14 = "#89b482"
-c07 = "#938377"
-c15 = "#ebdbb2"
-cbg = "#181818"
+c00 = "#151515"
+c08 = "#404040"
+c01 = "#ac4142"
+c09 = "#ac4142"
+c02 = "#90a959"
+c10 = "#90a959"
+c03 = "#f4bf75"
+c11 = "#f4bf75"
+c04 = "#6a9fb5"
+c12 = "#6a9fb5"
+c05 = "#aa759f"
+c13 = "#aa759f"
+c06 = "#75b5aa"
+c14 = "#75b5aa"
+c07 = "#d0d0d0"
+c15 = "#f5f5f5"
 
 # Aliases for commands. The keys of the given dictionary are the
 # aliases, while the values are the commands they map to.
@@ -262,11 +261,11 @@ c.colors.completion.fg = [c07, c07, c07]
 
 # Background color of the completion widget for odd rows.
 # Type: QssColor
-c.colors.completion.odd.bg = cbg
+c.colors.completion.odd.bg = c00
 
 # Background color of the completion widget for even rows.
 # Type: QssColor
-c.colors.completion.even.bg = cbg
+c.colors.completion.even.bg = c00
 
 # Foreground color of completion widget category headers.
 # Type: QtColor
@@ -278,15 +277,15 @@ c.colors.completion.category.bg = 'qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:
 
 # Top border color of the completion widget category headers.
 # Type: QssColor
-c.colors.completion.category.border.top = cbg
+c.colors.completion.category.border.top = c00
 
 # Bottom border color of the completion widget category headers.
 # Type: QssColor
-c.colors.completion.category.border.bottom = cbg
+c.colors.completion.category.border.bottom = c00
 
 # Foreground color of the selected completion item.
 # Type: QtColor
-c.colors.completion.item.selected.fg = cbg
+c.colors.completion.item.selected.fg = c00
 
 # Background color of the selected completion item.
 # Type: QssColor
@@ -310,16 +309,16 @@ c.colors.completion.match.fg = c04
 
 # Color of the scrollbar handle in the completion view.
 # Type: QssColor
-c.colors.completion.scrollbar.fg = c07
+c.colors.completion.scrollbar.fg = '#505050'
 
 # Color of the scrollbar in the completion view.
 # Type: QssColor
-c.colors.completion.scrollbar.bg = c00
+c.colors.completion.scrollbar.bg = '#505050'
 
 # Background color of the context menu. If set to null, the Qt default
 # is used.
 # Type: QssColor
-c.colors.contextmenu.menu.bg = cbg
+c.colors.contextmenu.menu.bg = c00
 
 # Foreground color of the context menu. If set to null, the Qt default
 # is used.
@@ -339,16 +338,16 @@ c.colors.contextmenu.selected.fg = c07
 # Background color of disabled items in the context menu. If set to
 # null, the Qt default is used.
 # Type: QssColor
-c.colors.contextmenu.disabled.bg = cbg
+c.colors.contextmenu.disabled.bg = c00
 
 # Foreground color of disabled items in the context menu. If set to
 # null, the Qt default is used.
 # Type: QssColor
-c.colors.contextmenu.disabled.fg = c01
+c.colors.contextmenu.disabled.fg = '#ac5d2f'
 
 # Background color for the download bar.
 # Type: QssColor
-c.colors.downloads.bar.bg = cbg
+c.colors.downloads.bar.bg = c00
 
 # Color gradient start for download text.
 # Type: QtColor
@@ -356,7 +355,7 @@ c.colors.downloads.start.fg = c07
 
 # Color gradient start for download backgrounds.
 # Type: QtColor
-c.colors.downloads.start.bg = c07
+c.colors.downloads.start.bg = '#6d715e'
 
 # Color gradient end for download text.
 # Type: QtColor
@@ -372,11 +371,11 @@ c.colors.downloads.error.fg = c07
 
 # Background color for downloads with errors.
 # Type: QtColor
-c.colors.downloads.error.bg = c09
+c.colors.downloads.error.bg = c01
 
 # Font color for hints.
 # Type: QssColor
-c.colors.hints.fg = cbg
+c.colors.hints.fg = c00
 c.colors.hints.bg = c07
 
 # Font color for the matched part of hints.
@@ -389,15 +388,15 @@ c.colors.messages.error.fg = c07
 
 # Background color of an error message.
 # Type: QssColor
-c.colors.messages.error.bg = c09
+c.colors.messages.error.bg = c01
 
 # Border color of an error message.
 # Type: QssColor
-c.colors.messages.error.border = c09
+c.colors.messages.error.border = c01
 
 # Foreground color of a warning message.
 # Type: QssColor
-c.colors.messages.warning.fg = cbg
+c.colors.messages.warning.fg = c00
 
 # Background color of a warning message.
 # Type: QssColor
@@ -413,11 +412,11 @@ c.colors.messages.info.fg = c07
 
 # Background color of an info message.
 # Type: QssColor
-c.colors.messages.info.bg = cbg
+c.colors.messages.info.bg = c00
 
 # Border color of an info message.
 # Type: QssColor
-c.colors.messages.info.border = cbg
+c.colors.messages.info.border = c00
 
 # Foreground color for prompts.
 # Type: QssColor
@@ -425,16 +424,15 @@ c.colors.prompts.fg = c07
 
 # Border used around UI elements in prompts.
 # Type: String
-c.colors.prompts.border = cbg
+c.colors.prompts.border = c00
 
 # Background color for prompts.
 # Type: QssColor
-c.colors.prompts.bg = cbg
+c.colors.prompts.bg = c00
 
 # Background color for the selected item in filename prompts.
 # Type: QssColor
-c.colors.prompts.selected.bg = c04
-c.colors.prompts.selected.bg = c15
+c.colors.prompts.selected.bg = '#505050'
 
 # Foreground color of the statusbar.
 # Type: QssColor
@@ -442,7 +440,7 @@ c.colors.statusbar.normal.fg = c07
 
 # Background color of the statusbar.
 # Type: QssColor
-c.colors.statusbar.normal.bg = cbg
+c.colors.statusbar.normal.bg = c00
 
 # Foreground color of the statusbar in insert mode.
 # Type: QssColor
@@ -466,7 +464,7 @@ c.colors.statusbar.private.fg = c07
 
 # Background color of the statusbar in private browsing mode.
 # Type: QssColor
-c.colors.statusbar.private.bg = cbg
+c.colors.statusbar.private.bg = c00
 
 # Foreground color of the statusbar in command mode.
 # Type: QssColor
@@ -474,11 +472,11 @@ c.colors.statusbar.command.fg = c07
 
 # Background color of the statusbar in command mode.
 # Type: QssColor
-c.colors.statusbar.command.bg = cbg
+c.colors.statusbar.command.bg = c00
 
 # Foreground color of the statusbar in private browsing + command mode.
 # Type: QssColor
-c.colors.statusbar.command.private.fg = cbg
+c.colors.statusbar.command.private.fg = c00
 
 # Background color of the statusbar in private browsing + command mode.
 # Type: QssColor
@@ -510,7 +508,7 @@ c.colors.statusbar.url.fg = c07
 
 # Foreground color of the URL in the statusbar on error.
 # Type: QssColor
-c.colors.statusbar.url.error.fg = c09
+c.colors.statusbar.url.error.fg = c01
 
 # Foreground color of the URL in the statusbar for hovered links.
 # Type: QssColor
@@ -532,7 +530,7 @@ c.colors.statusbar.url.warn.fg = c06
 
 # Background color of the tab bar.
 # Type: QssColor
-c.colors.tabs.bar.bg = cbg
+c.colors.tabs.bar.bg = c00
 
 # Color gradient start for the tab indicator.
 # Type: QtColor
@@ -544,7 +542,7 @@ c.colors.tabs.indicator.stop = c04
 
 # Color for the tab indicator on errors.
 # Type: QtColor
-c.colors.tabs.indicator.error = cbg
+c.colors.tabs.indicator.error = c00
 
 # Foreground color of unselected odd tabs.
 # Type: QtColor
@@ -552,7 +550,7 @@ c.colors.tabs.odd.fg = c07
 
 # Background color of unselected odd tabs.
 # Type: QtColor
-c.colors.tabs.odd.bg = cbg
+c.colors.tabs.odd.bg = c00
 
 # Foreground color of unselected even tabs.
 # Type: QtColor
@@ -560,7 +558,7 @@ c.colors.tabs.even.fg = c07
 
 # Background color of unselected even tabs.
 # Type: QtColor
-c.colors.tabs.even.bg = cbg
+c.colors.tabs.even.bg = c00
 
 # Foreground color of selected odd tabs.
 # Type: QtColor
