@@ -73,4 +73,4 @@ dmenu.font :          Terminus:pixelsize=14
 dmenu.background :    cbg
 dmenu.foreground :    cfg
 dmenu.selbackground : c04
-dmenu.selforeground : c08
+dmenu.selforeground : c15
