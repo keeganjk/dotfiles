@@ -4,7 +4,8 @@ set autoindent smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
-"set spell spelllang=en_us
+
+nnoremap <esc> :noh<return><esc>
 
 call plug#begin()
 
@@ -29,3 +30,4 @@ let g:tex_indent_and=0
 let g:tex_indent_brace=0
 colorscheme onedark
 hi Normal guibg=NONE ctermbg=NONE
+
