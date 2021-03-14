@@ -368,7 +368,7 @@ c.colors.downloads.stop.bg = c02
 
 # Foreground color for downloads with errors.
 # Type: QtColor
-c.colors.downloads.error.fg = c07
+c.colors.downloads.error.fg = c15
 
 # Background color for downloads with errors.
 # Type: QtColor
@@ -385,7 +385,7 @@ c.colors.hints.match.fg = c02
 
 # Foreground color of an error message.
 # Type: QssColor
-c.colors.messages.error.fg = c07
+c.colors.messages.error.fg = c15
 
 # Background color of an error message.
 # Type: QssColor
