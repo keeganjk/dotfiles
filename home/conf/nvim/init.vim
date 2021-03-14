@@ -18,6 +18,13 @@ Plug 'mattn/emmet-vim'
 
 call plug#end()
 
+:function WriteEnglish()
+    :set spell spelllang=en_US
+    :set linebreak
+:endfunction
+
+nnoremap <C-e> :call WriteEnglish()<CR>
+
 let g:user_emmet_mode='n'
 let g:user_emmet_leader_key=','
 
@@ -30,4 +37,3 @@ let g:tex_indent_and=0
 let g:tex_indent_brace=0
 colorscheme onedark
 hi Normal guibg=NONE ctermbg=NONE
-
