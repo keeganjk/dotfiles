@@ -4,6 +4,7 @@ set autoindent smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set mouse=n
 
 nnoremap <esc> :noh<return><esc>
 
