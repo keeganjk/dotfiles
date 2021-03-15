@@ -12,7 +12,10 @@ super + shift + p
 XF86AudioNext
   mpc next
 
-XF86AudioPrev
+super + n
+  mpc next
+
+super + shift + n
   mpc prev
 
 XF86AudioMute
@@ -25,7 +28,7 @@ XF86AudioRaiseVolume
   amixer set Master 1%+; killall dwmstatus; dwmstatus &
 
 # Click
-super + n
+super + m
   xdotool keyup Super_L && xdotool click 1
 
 # Lock screen
