@@ -6,5 +6,10 @@
 
 config_version: 2
 settings:
+  content.media.audio_capture:
+    https://us04web.zoom.us: true
+    https://vocaroo.com: true
+  content.media.audio_video_capture:
+    https://us04web.zoom.us: true
   content.user_stylesheets:
     global: null

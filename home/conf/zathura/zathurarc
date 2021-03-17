@@ -1,1 +1,6 @@
+set default-bg \#181818
+set default-fg \#ebdbb2
+set recolor-darkcolor \#ebdbb2
+set recolor-lightcolor \#181818
+
 map b toggle_statusbar
