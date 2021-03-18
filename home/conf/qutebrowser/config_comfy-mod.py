@@ -356,11 +356,11 @@ c.colors.downloads.start.fg = c07
 
 # Color gradient start for download backgrounds.
 # Type: QtColor
-c.colors.downloads.start.bg = c07
+c.colors.downloads.start.bg = c00
 
 # Color gradient end for download text.
 # Type: QtColor
-c.colors.downloads.stop.fg = c07
+c.colors.downloads.stop.fg = c15
 
 # Color gradient stop for download backgrounds.
 # Type: QtColor
@@ -434,7 +434,7 @@ c.colors.prompts.bg = cbg
 # Background color for the selected item in filename prompts.
 # Type: QssColor
 c.colors.prompts.selected.bg = c04
-c.colors.prompts.selected.bg = c15
+c.colors.prompts.selected.bg = c02
 
 # Foreground color of the statusbar.
 # Type: QssColor
