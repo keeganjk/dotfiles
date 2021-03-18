@@ -433,7 +433,6 @@ c.colors.prompts.bg = cbg
 
 # Background color for the selected item in filename prompts.
 # Type: QssColor
-c.colors.prompts.selected.bg = c04
 c.colors.prompts.selected.bg = c02
 
 # Foreground color of the statusbar.
@@ -506,7 +505,7 @@ c.colors.statusbar.progress.bg = c07
 
 # Default foreground color of the URL in the statusbar.
 # Type: QssColor
-c.colors.statusbar.url.fg = c07
+c.colors.statusbar.url.fg = c15
 
 # Foreground color of the URL in the statusbar on error.
 # Type: QssColor
