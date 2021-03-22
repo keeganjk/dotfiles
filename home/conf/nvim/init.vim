@@ -24,7 +24,17 @@ call plug#end()
     :set linebreak
 :endfunction
 
+:function CompileLaTeX()
+    :!pdflatex %
+:endfunction
+
+:function CompileBibLaTeX()
+    :!pdflatex % && biber %:r && pdflatex %
+:endfunction
+
 nnoremap <C-e> :call WriteEnglish()<CR>
+nnoremap <C-l> :call CompileBibLaTeX()<CR>
+nnoremap <C-L> :call CompileBibLaTeX()<CR>
 nnoremap S :%s//g<Left><Left>
 
 let g:user_emmet_mode='n'
