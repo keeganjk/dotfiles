@@ -13,6 +13,8 @@
 # Uncomment this to still load settings configured via autoconfig.yml
 config.load_autoconfig(False)
 
+#config.set("colors.webpage.darkmode.enabled", True)
+
 c00 = "#1d2021"
 c08 = "#232627"
 c01 = "#6f3635"
@@ -215,7 +217,7 @@ c.editor.command = ["st", "-e", "nvim", "+call cursor({line}, {column})", "{file
 
 # CSS border value for hints.
 # Type: String
-c.hints.border = '1px solid #75b5aa'
+c.hints.border = c15
 
 # When to show the tab bar.
 # Type: String
@@ -290,7 +292,7 @@ c.colors.completion.item.selected.fg = cbg
 
 # Background color of the selected completion item.
 # Type: QssColor
-c.colors.completion.item.selected.bg = c06
+c.colors.completion.item.selected.bg = c04
 
 # Top border color of the selected completion item.
 # Type: QssColor
@@ -302,7 +304,7 @@ c.colors.completion.item.selected.border.bottom = c06
 
 # Foreground color of the matched text in the selected completion item.
 # Type: QtColor
-c.colors.completion.item.selected.match.fg = c05
+c.colors.completion.item.selected.match.fg = c11
 
 # Foreground color of the matched text in the completion.
 # Type: QtColor
@@ -393,7 +395,7 @@ c.colors.messages.error.bg = c09
 
 # Border color of an error message.
 # Type: QssColor
-c.colors.messages.error.border = c09
+c.colors.messages.error.border = c00
 
 # Foreground color of a warning message.
 # Type: QssColor
@@ -405,7 +407,7 @@ c.colors.messages.warning.bg = c03
 
 # Border color of a warning message.
 # Type: QssColor
-c.colors.messages.warning.border = c03
+c.colors.messages.warning.border = c00
 
 # Foreground color of an info message.
 # Type: QssColor
@@ -417,7 +419,7 @@ c.colors.messages.info.bg = cbg
 
 # Border color of an info message.
 # Type: QssColor
-c.colors.messages.info.border = cbg
+c.colors.messages.info.border = c00
 
 # Foreground color for prompts.
 # Type: QssColor
@@ -425,7 +427,7 @@ c.colors.prompts.fg = c07
 
 # Border used around UI elements in prompts.
 # Type: String
-c.colors.prompts.border = cbg
+c.colors.prompts.border = c00
 
 # Background color for prompts.
 # Type: QssColor

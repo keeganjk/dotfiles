@@ -25,6 +25,7 @@ call plug#end()
 :endfunction
 
 nnoremap <C-e> :call WriteEnglish()<CR>
+nnoremap S :%s//g<Left><Left>
 
 let g:user_emmet_mode='n'
 let g:user_emmet_leader_key=','
