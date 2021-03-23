@@ -12,7 +12,7 @@ call plug#begin()
 
 Plug 'guns/xterm-color-table.vim'
 Plug 'keeganjk/onedark.vim'
-Plug 'skammer/vim-css-color'
+Plug 'ap/vim-css-color'
 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 Plug 'Raimondi/delimitMate'
 Plug 'mattn/emmet-vim'
@@ -24,22 +24,14 @@ call plug#end()
     :set linebreak
 :endfunction
 
-:function CompileLaTeX()
-    :!pdflatex %
-:endfunction
-
-:function CompileBibLaTeX()
-    :!pdflatex % && biber %:r && pdflatex %
-:endfunction
-
 nnoremap <C-e> :call WriteEnglish()<CR>
-nnoremap <C-l> :call CompileBibLaTeX()<CR>
-nnoremap <C-L> :call CompileBibLaTeX()<CR>
-nnoremap S :%s//g<Left><Left>
+nnoremap <C-l> :!pdflatex %<Enter>
+nnoremap <C-L> :!pdflatex % && biber %:r && pdflatex %<Enter>
+nnoremap <C-p> :PlugInstall<Enter>
+nnoremap <C-S> :%s//g<Left><Left>
 
 let g:user_emmet_mode='n'
 let g:user_emmet_leader_key=','
-
 let g:onedark_hide_endofbuffer=1
 let g:onedark_termcolors=256
 let g:onedark_terminal_italics=1

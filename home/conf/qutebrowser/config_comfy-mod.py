@@ -378,8 +378,8 @@ c.colors.downloads.error.bg = c09
 
 # Font color for hints.
 # Type: QssColor
-c.colors.hints.fg = cbg
-c.colors.hints.bg = c07
+c.colors.hints.fg = c15
+c.colors.hints.bg = c04
 
 # Font color for the matched part of hints.
 # Type: QtColor
