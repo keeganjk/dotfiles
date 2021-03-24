@@ -24,11 +24,15 @@ call plug#end()
     :set linebreak
 :endfunction
 
+:function CompileLaTeX()
+    :w
+    :!pdflatex % && [[ -z $(ls | grep .bib) ]] || biber %:r && pdflatex %
+:endfunction
+
 nnoremap <C-e> :call WriteEnglish()<CR>
-nnoremap <C-l> :!pdflatex %<Enter>
-nnoremap <C-L> :!pdflatex % && biber %:r && pdflatex %<Enter>
-nnoremap <C-p> :PlugInstall<Enter>
-nnoremap <C-S> :%s//g<Left><Left>
+nnoremap <C-l> :call CompileLaTeX()<CR>
+nnoremap <C-p> :PlugInstall<CR>
+nnoremap <C-s> :%s//g<Left><Left>
 
 let g:user_emmet_mode='n'
 let g:user_emmet_leader_key=','

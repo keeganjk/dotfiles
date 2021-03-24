@@ -1,5 +1,6 @@
 #define c00 #1d2021
-#define c08 #232627
+!#define c08 #232627
+#define c08 #383b3c
 #define c01 #6f3635
 #define c09 #ea6962
 #define c02 #6c782c
