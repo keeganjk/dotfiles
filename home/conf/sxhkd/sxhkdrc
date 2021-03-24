@@ -28,7 +28,7 @@ XF86AudioRaiseVolume
   amixer set Master 1%+; killall dwmstatus; dwmstatus &
 
 # Click
-super + m
+super + shift + m
   xdotool keyup Super_L && xdotool click 1
 
 # Lock screen
