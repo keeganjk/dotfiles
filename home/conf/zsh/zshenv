@@ -66,7 +66,7 @@ alias irssi='irssi --config $XDG_CONFIG_HOME/irssi/config'
 alias grep='grep --color=auto'
 alias pacman='pacman --color always'
 alias yay='yay --color always'
-alias please='sudo'
+alias please='doas'
 alias ls="ls $LS_OPTIONS"
 alias ll="ls $LS_OPTIONS -l"
 alias l="ls $LS_OPTIONS -lA"

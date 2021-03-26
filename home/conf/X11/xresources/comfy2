@@ -1,0 +1,76 @@
+#define c00 #383332
+#define c08 #383332
+#define c01 #845336
+#define c09 #845336
+#define c02 #57553c
+#define c10 #57553c
+#define c03 #a17e3e
+#define c11 #a17e3e
+#define c04 #43454f
+#define c12 #43454f
+#define c05 #604848
+#define c13 #604848
+#define c06 #5c6652
+#define c14 #5c6652
+#define c07 #a18b62
+#define c15 #a18b62
+#define cfg #daba8b
+#define cbg #191716
+#define ccc cfg
+
+! special
+*.foreground:   cfg
+*.background:   cbg
+*.cursorColor:  ccc
+
+! black
+*.color0:       c00
+*.color8:       c08
+
+! red
+*.color1:       c01
+*.color9:       c09
+
+! green
+*.color2:       c02
+*.color10:      c10
+
+! yellow
+*.color3:       c03
+*.color11:      c11
+
+! blue
+*.color4:       c04
+*.color12:      c12
+
+! magenta
+*.color5:       c05
+*.color13:      c13
+
+! cyan
+*.color6:       c06
+*.color14:      c14
+
+! white
+*.color7:       c07
+*.color15:      c15
+
+dwm.normbgcolor:     cbg
+dwm.normfgcolor:     cfg
+dwm.normbordercolor: c08
+dwm.selbgcolor:      c04
+dwm.selfgcolor:      c15
+dwm.selbordercolor:  c04
+dwm.borderpx:        6
+dwm.snap:            32
+dwm.showbar:         1
+dwm.topbar:          1
+dwm.nmaster:         1 
+dwm.resizehints:     1 
+dwm.mfact:           0.55
+
+dmenu.font :          Terminus:pixelsize=14
+dmenu.background :    cbg
+dmenu.foreground :    cfg
+dmenu.selbackground : c04
+dmenu.selforeground : c15
