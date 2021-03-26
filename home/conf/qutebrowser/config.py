@@ -13,7 +13,7 @@
 # Uncomment this to still load settings configured via autoconfig.yml
 config.load_autoconfig(False)
 
-from themes/comfy-mod.py import *
+from theme_comfy2 import *
 
 #config.set("colors.webpage.darkmode.enabled", True)
 
