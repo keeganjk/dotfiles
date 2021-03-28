@@ -54,3 +54,7 @@ super + z
 
 super + shift + z
   pkill screenkey
+
+# Misc
+super + control + p
+  passmenu
