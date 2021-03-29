@@ -1,5 +1,5 @@
-#define c00 #111
-#define c08 #222
+#define c00 #111111
+#define c08 #222222
 #define c01 #79220e
 #define c09 #79220e
 #define c02 #344b1b
@@ -15,7 +15,7 @@
 #define c07 #ae8842
 #define c15 #ccaa6f
 #define cfg c07
-#define cbg c00
+#define cbg #000000
 #define ccc cfg
 
 ! special
