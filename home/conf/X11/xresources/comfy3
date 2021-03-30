@@ -60,7 +60,7 @@ dwm.normfgcolor:     cfg
 dwm.normbordercolor: c08
 dwm.selbgcolor:      c06
 dwm.selfgcolor:      c15
-dwm.selbordercolor:  c15
+dwm.selbordercolor:  c07
 dwm.borderpx:        6
 dwm.snap:            32
 dwm.showbar:         1
