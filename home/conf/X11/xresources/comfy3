@@ -1,17 +1,17 @@
 #define c00 #111111
 #define c08 #222222
 #define c01 #79220e
-#define c09 #79220e
+#define c09 #a72f13
 #define c02 #344b1b
-#define c10 #344b1b
+#define c10 #4e7129
 #define c03 #b45b00
-#define c11 #b45b00
+#define c11 #e77500
 #define c04 #434045
-#define c12 #434045
+#define c12 #5d595f
 #define c05 #5c1e25
-#define c13 #5c1e25
+#define c13 #822b34
 #define c06 #394745
-#define c14 #394745
+#define c14 #506360
 #define c07 #ae8842
 #define c15 #ccaa6f
 #define cfg c07
@@ -60,7 +60,7 @@ dwm.normfgcolor:     cfg
 dwm.normbordercolor: c08
 dwm.selbgcolor:      c06
 dwm.selfgcolor:      c15
-dwm.selbordercolor:  c06
+dwm.selbordercolor:  c15
 dwm.borderpx:        6
 dwm.snap:            32
 dwm.showbar:         1
