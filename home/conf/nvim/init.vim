@@ -33,7 +33,7 @@ nnoremap <C-e> :call WriteEnglish()<CR>
 nnoremap <C-l> :call CompileLaTeX()<CR>
 nnoremap <C-p> :PlugInstall<CR>
 nnoremap <C-s> :%s//g<Left><Left>
-nnoremap <C-v> :so $MYVIMRC<CR>
+nnoremap <C-i> :so $MYVIMRC<CR>
 
 let g:user_emmet_mode='n'
 let g:user_emmet_leader_key=','
