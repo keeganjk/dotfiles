@@ -33,6 +33,7 @@ nnoremap <C-e> :call WriteEnglish()<CR>
 nnoremap <C-l> :call CompileLaTeX()<CR>
 nnoremap <C-p> :PlugInstall<CR>
 nnoremap <C-s> :%s//g<Left><Left>
+nnoremap <C-v> :so $MYVIMRC<CR>
 
 let g:user_emmet_mode='n'
 let g:user_emmet_leader_key=','
@@ -43,5 +44,5 @@ let g:airline_theme='onedark'
 let g:tex_indent_items=0
 let g:tex_indent_and=0
 let g:tex_indent_brace=0
-colorscheme onedark
+colo onedark
 hi Normal guibg=NONE ctermbg=NONE

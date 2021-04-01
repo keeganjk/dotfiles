@@ -1,6 +1,6 @@
-set default-bg \#938377
-set default-fg \#ebdbb2
-set recolor-darkcolor \#ebdbb2
-set recolor-lightcolor \#181818
+set default-bg \#ae8842
+set default-fg \#222222
+set recolor-darkcolor \#ae8842
+set recolor-lightcolor \#000000
 set selection-clipboard clipboard
 map b toggle_statusbar
