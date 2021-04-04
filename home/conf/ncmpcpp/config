@@ -1,5 +1,5 @@
 ncmpcpp_directory = ~/conf/ncmpcpp
-mpd_music_dir = ~/aud/mus
+mpd_music_dir = ~/aud/
 
 autocenter_mode = "yes"
 follow_now_playing_lyrics = "yes"
