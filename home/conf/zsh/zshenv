@@ -10,7 +10,7 @@ appendpath () {
 
 appendpath "$HOME/.local/bin"
 appendpath "$HOME/.local/bin/scripts"
-appendpath "$HOME/doc/src/scripts"
+appendpath "$HOME/.local/bin/scripts/not-mine"
 export PATH
 
 export XDG_CONFIG_HOME="$HOME/conf"
