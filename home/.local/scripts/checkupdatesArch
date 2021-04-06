@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -n "$(checkupdates+aur | wc -l)"

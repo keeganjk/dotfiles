@@ -8,7 +8,8 @@ appendpath () {
     esac
 }
 
-appendpath "$HOME/misc/bin"
+appendpath "$HOME/.local/bin"
+appendpath "$HOME/.local/bin/scripts"
 appendpath "$HOME/doc/src/scripts"
 export PATH
 

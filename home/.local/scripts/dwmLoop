@@ -1,0 +1,5 @@
+#!/bin/sh
+touch /tmp/dwm.lock
+while [[ -e "/tmp/dwm.lock" ]]; do
+ dwm
+done
