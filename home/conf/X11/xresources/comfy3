@@ -1,5 +1,5 @@
 #define c00 #111111
-#define c08 #222222
+#define c08 #333333
 #define c01 #79220e
 #define c09 #a72f13
 #define c02 #344b1b
@@ -79,7 +79,7 @@ dwm.nmaster:         1
 dwm.resizehints:     1 
 dwm.mfact:           0.55
 
-dmenu.font :          "Misc Termsyn-12"
+dmenu.font :          "Misc Termsyn-12:pixelsize=12:antialias=false"
 dmenu.background :    cbg
 dmenu.foreground :    cfg
 dmenu.selbackground : c04
