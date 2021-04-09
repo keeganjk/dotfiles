@@ -1,31 +1,21 @@
-#define c00 #111111
-#define c08 #333333
-#define c01 #79220e
-#define c09 #a72f13
-#define c02 #344b1b
-#define c10 #4e7129
-#define c03 #b45b00
-#define c11 #e77500
-!!#define c04 #434045
-!!#define c12 #5d595f
-!!!#define c04 #454545
-!!!#define c12 #5f5f5f
-#define c04 #333333
-#define c12 #444444
-!#define c04 #6c767e
-!#define c12 #868f97
-#define c05 #5c1e25
-#define c13 #822b34
-!#define c06 #394745
-!#define c14 #506360
-!!#define c06 #33403E
-!!#define c14 #4a5c59
-#define c06 #2D403D
-#define c14 #3C5C57
-#define c07 #ae8842
-#define c15 #ccaa6f
+#define c00 #151515
+#define c08 #505050
+#define c01 #ac4142
+#define c09 #ac4142
+#define c02 #90a959
+#define c10 #90a959
+#define c03 #f4bf75
+#define c11 #f4bf75
+#define c04 #6a9fb5
+#define c12 #6a9fb5
+#define c05 #aa759f
+#define c13 #aa759f
+#define c06 #75b5aa
+#define c14 #75b5aa
+#define c07 #d0d0d0
+#define c15 #f5f5f5
 #define cfg c07
-#define cbg #000000
+#define cbg c00
 #define ccc cfg
 
 ! special
@@ -68,9 +58,9 @@
 dwm.normbgcolor:     cbg
 dwm.normfgcolor:     cfg
 dwm.normbordercolor: c08
-dwm.selbgcolor:      c06
+dwm.selbgcolor:      c04
 dwm.selfgcolor:      c15
-dwm.selbordercolor:  c07
+dwm.selbordercolor:  c04
 dwm.borderpx:        6
 dwm.snap:            32
 dwm.showbar:         1
@@ -79,8 +69,8 @@ dwm.nmaster:         1
 dwm.resizehints:     1 
 dwm.mfact:           0.55
 
-dmenu.font :          "Misc Termsyn-12:pixelsize=12:antialias=false"
+dmenu.font :          Terminus:pixelsize=14
 dmenu.background :    cbg
 dmenu.foreground :    cfg
 dmenu.selbackground : c04
-dmenu.selforeground : c15
+dmenu.selforeground : cfg

@@ -38,7 +38,7 @@ nnoremap <C-p> :PlugInstall<CR>
 nnoremap <C-s> :%s//g<Left><Left>
 nnoremap <C-i> :so $MYVIMRC<CR>
 
-inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
+"inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
 
 "autocmd FileType html inoremap ;i <em></em><Space><++><Esc>FeT>i
 "autocmd FileType html inoremap ;b <b></b><Space><++><Esc>FbT>i

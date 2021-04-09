@@ -1,0 +1,86 @@
+#define c00 #111111
+#define c08 #333333
+#define c01 #79220e
+#define c09 #a72f13
+#define c02 #344b1b
+#define c10 #4e7129
+#define c03 #b45b00
+#define c11 #e77500
+#define c04 #434045
+#define c12 #5d595f
+!#define c04 #454545
+!#define c12 #5f5f5f
+!!#define c04 #333333
+!!#define c12 #444444
+!#define c04 #383838
+!#define c12 #484848
+#define c05 #5c1e25
+#define c13 #822b34
+!#define c06 #394745
+!#define c14 #506360
+!!#define c06 #33403E
+!!#define c14 #4a5c59
+#define c06 #2D403D
+#define c14 #3C5C57
+#define c07 #ae8842
+#define c15 #ccaa6f
+#define cfg c07
+#define cbg #000000
+#define ccc cfg
+
+! special
+*.foreground:   cfg
+*.background:   cbg
+*.cursorColor:  ccc
+
+! black
+*.color0:       c00
+*.color8:       c08
+
+! red
+*.color1:       c01
+*.color9:       c09
+
+! green
+*.color2:       c02
+*.color10:      c10
+
+! yellow
+*.color3:       c03
+*.color11:      c11
+
+! blue
+*.color4:       c04
+*.color12:      c12
+
+! magenta
+*.color5:       c05
+*.color13:      c13
+
+! cyan
+*.color6:       c06
+*.color14:      c14
+
+! white
+*.color7:       c07
+*.color15:      c15
+
+dwm.normbgcolor:     cbg
+dwm.normfgcolor:     cfg
+dwm.normbordercolor: c08
+dwm.selbgcolor:      c06
+dwm.selfgcolor:      c15
+dwm.selbordercolor:  c07
+dwm.borderpx:        6
+dwm.snap:            32
+dwm.showbar:         1
+dwm.topbar:          1
+dwm.nmaster:         1 
+dwm.resizehints:     1 
+dwm.mfact:           0.55
+
+dmenu.font :          "Misc Termsyn-12:pixelsize=12:antialias=false"
+dmenu.background :    cbg
+dmenu.foreground :    cfg
+dmenu.selbackground : c04
+dmenu.selforeground : c15
