@@ -2,4 +2,4 @@
 # Xresources to Py
 
 printf "#!/usr/bin/env python\n\n"
-cat $1 | grep '#define\s.*' | sed 's/\s*#define\s\+//;s/\!/#/g;s/.\s/ = "/;s/$/"/'
+cat $1 | grep '#define\s.*' | sed 's/\s*#define\s\+//;s/\!/#/g;s/\s/ = "/;s/$/"/'
