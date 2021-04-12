@@ -3,9 +3,20 @@
 SRC_DIR="~/.local/src"
 mkdir -p ~/.local/bin ~/.local/src ~/.local/share ~/.config $SRC_DIR
 
-source programs
+source ./programs
+
+aur_handler() {
+    cd /tmp
+    git clone "$i" && cd "$i"
+}
+
+git_handler() {
+
+}
 
 sudo pacman -Syu
 sudo pacman -S --needed "$DISTRO_REPO"
 
-# Make way to handle AUR and Git 
+for i in $AUR; do
+    aur_handler "$i"
+done
