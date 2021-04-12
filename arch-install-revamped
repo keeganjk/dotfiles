@@ -1,0 +1,11 @@
+#!/bin/sh
+
+SRC_DIR="~/.local/src"
+mkdir -p ~/.local/bin ~/.local/src ~/.local/share ~/.config $SRC_DIR
+
+source programs
+
+sudo pacman -Syu
+sudo pacman -S --needed "$DISTRO_REPO"
+
+# Make way to handle AUR and Git 
