@@ -28,7 +28,7 @@ XF86AudioRaiseVolume
   amixer set Master 1%+; killall dwmstatus; dwmstatus &
 
 # Terminal, with large and readable font (mainly for screen recordings)
-super + control + return
+super + control + Return
   st -f 'Fira Code:pixelsize=20'
 
 # Click
