@@ -1,0 +1,4 @@
+#!/bin/sh
+# "Source Edit": Edit the source of a provided binary, i.e. edit $(which $1)
+[[ -z "$EDITOR" ]] && EDITOR=nvim
+eval "$EDITOR" $(which "$1")
