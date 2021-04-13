@@ -29,7 +29,7 @@ XF86AudioRaiseVolume
 
 # Audio control
 super + a
-  st -e 'pulsemixer'
+  st -c "fSt" -e 'pulsemixer'
 
 # Terminal, with large and readable font (mainly for screen recordings)
 super + control + Return

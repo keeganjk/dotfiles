@@ -12,7 +12,7 @@ aur_handler() {
 }
 
 git_handler() {
-
+    echo "$i"
 }
 
 sudo pacman -Syu
