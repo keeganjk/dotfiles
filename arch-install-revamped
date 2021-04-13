@@ -8,6 +8,7 @@ source ./programs
 aur_handler() {
     cd /tmp
     git clone "$i" && cd "$i"
+    
 }
 
 git_handler() {
