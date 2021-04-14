@@ -1,5 +1,6 @@
 #!/bin/sh
 
+[[ -z "$EDITOR" ]] && EDITOR="nvim"
 SRC_DIR="~/.local/src"
 mkdir -p ~/.local/bin ~/.local/src ~/.local/share ~/.config $SRC_DIR
 
@@ -7,6 +8,7 @@ source ./programs
 
 aur_handler() {
     cd /tmp
+    pwd
     git clone "$i" && cd "$i"
     
 }
@@ -15,8 +17,11 @@ git_handler() {
     echo "$i"
 }
 
-sudo pacman -Syu
-sudo pacman -S --needed "$DISTRO_REPO"
+read -p "Uncomment the [multilib] section and any other desired repositories. [Press Return to continue]"
+exec "$EDITOR" /etc/pacman.conf
+
+pacman -Syu
+pacman -S --needed "$DISTRO_REPO"
 
 for i in $AUR; do
     aur_handler "$i"
