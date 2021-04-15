@@ -58,7 +58,7 @@ super + shift + control + Print
 
 # Screenkey
 super + z
-  screenkey &
+  screenkey -f "Fira Code" &
 
 super + shift + z
   pkill screenkey

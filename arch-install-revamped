@@ -17,8 +17,15 @@ git_handler() {
     echo "$i"
 }
 
-read -p "Uncomment the [multilib] section and any other desired repositories. [Press Return to continue]"
-exec "$EDITOR" /etc/pacman.conf
+sed '/\[multilib\]/{$!N;s,#,,g}' <<<"#[multilib]
+#Include = /etc/pacman.d/mirrorlist" /etc/pacman.conf # Understand this; I must not use code of which I do not understand the purpose
+
+# /\[multilib\]/{  # match multilib
+#   $!{       # (!)not the ($)last line
+#     N       # append the next line
+#     s/#//g  # remove all "#"s. 
+#   }
+# }
 
 pacman -Syu
 pacman -S --needed "$DISTRO_REPO"
