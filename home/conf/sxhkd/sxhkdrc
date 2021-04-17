@@ -63,6 +63,13 @@ super + z
 super + shift + z
   pkill screenkey
 
+# Browser
+super + q
+  qutebrowser
+
+super + c
+  chromium
+
 # Misc
 super + control + p
   passmenu
