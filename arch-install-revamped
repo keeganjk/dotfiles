@@ -1,24 +1,26 @@
 #!/bin/sh
 
-[[ -z "$EDITOR" ]] && EDITOR="nvim"
 SRC_DIR="~/.local/src"
-mkdir -p ~/.local/bin ~/.local/src ~/.local/share ~/.config $SRC_DIR
+mkdir -p ~/.local/ ~/.local/share ~/.config $SRC_DIR
 
 source ./programs
 
 aur_handler() {
-    cd /tmp
-    pwd
-    git clone "$i" && cd "$i"
-    
+    #cd /tmp
+    #pwd
+    #git clone "$i" && cd "$i"
+    # Use PKGBUILDS    
 }
 
 git_handler() {
     echo "$i"
 }
 
-sed '/\[multilib\]/{$!N;s,#,,g}' <<<"#[multilib]
-#Include = /etc/pacman.d/mirrorlist" /etc/pacman.conf # Understand this; I must not use code of which I do not understand the purpose
+misc_install() {
+    # Install vim-plug
+    sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \ 
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+}
 
 # /\[multilib\]/{  # match multilib
 #   $!{       # (!)not the ($)last line
@@ -26,6 +28,9 @@ sed '/\[multilib\]/{$!N;s,#,,g}' <<<"#[multilib]
 #     s/#//g  # remove all "#"s. 
 #   }
 # }
+# Enable multilib repositories in /etc/pacman.conf
+sed '/\[multilib\]/{$!N;s,#,,g}' <<<"#[multilib]
+#Include = /etc/pacman.d/mirrorlist" /etc/pacman.conf > /etc/pacman.conf # Understand this; I must not use code of which I do not understand the purpose
 
 pacman -Syu
 pacman -S --needed "$DISTRO_REPO"
@@ -33,3 +38,5 @@ pacman -S --needed "$DISTRO_REPO"
 for i in $AUR; do
     aur_handler "$i"
 done
+
+misc_install

@@ -1,4 +1,0 @@
-#!/bin/bash
-set -- $(mpstat -P 0 | sed '$!d;s/\S*\s\SM//')
-CPU=$(printf "%.1f\n" $2)
-echo -n "$CPU%"

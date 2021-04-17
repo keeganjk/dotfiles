@@ -1,8 +1,0 @@
-#!/bin/bash
-CHARGE_OR_DISCHARGE="$(acpi | sed 's/\S*\s\S*\s//;s/,.*//')"
-BATTERY_PERCENTAGE="$(acpi | sed 's/\S*\s\S*\s\S*\s//;s/\%.*//')"
-if [[ "$CHARGE_OR_DISCHARGE" == "Charging" ]]; then
-    echo -n "$BATTERY_PERCENTAGE%"
-else
-    echo -n "$BATTERY_PERCENTAGE%"
-fi

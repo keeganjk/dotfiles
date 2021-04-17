@@ -1,7 +1,0 @@
-#!/bin/bash
-VOL="$(amixer -M sget Master | tail +5 | sed 's/.*Playback\s//;s/..\s\[//;s/\%.*//')"
-if amixer get Master | sed 5q | grep -q '\[on\]'; then 
-    echo -n "$VOL%"
-else
-    echo -n "$VOL%"
-fi

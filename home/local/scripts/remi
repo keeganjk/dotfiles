@@ -1,2 +1,0 @@
-#!/bin/sh
-sudo reflector --protocol https --sort delay --latest 3 --save /etc/pacman.d/mirrorlist
