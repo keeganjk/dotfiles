@@ -3,7 +3,7 @@ config.load_autoconfig(False)
 from theme_comfy3 import *
 
 # Backend
-c.backend = 'webkit'
+c.backend = 'webengine'
 
 # User agent
 config.set('content.headers.user_agent', 'Mozilla/5.0 ({os_info}; rv:71.0) Gecko/20100101 Firefox/71.0', 'https://docs.google.com/*')
