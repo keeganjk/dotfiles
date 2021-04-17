@@ -46,7 +46,7 @@ export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
 export GOPATH="$XDG_DATA_HOME"/go
 export XCOMPOSEFILE="$XDG_CONFIG_HOME/x11/xcompose"
-#export GNUPGHOME=""
+export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 
 # Miscellaneous
 export LS_OPTIONS="--color=auto"
