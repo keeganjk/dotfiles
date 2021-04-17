@@ -44,7 +44,7 @@ searx_customized = 'https://searx.ir/?preferences=eJx1VU2P3DYM_TX1xdigSQ49-VC0KB
 c.url.searchengines = {'DEFAULT': searx_customized, 'ddg': 'https://duckduckgo.com/?q={}', 'sx': 'https://searx.ir/{}', 'az': 'https://www.amazon.com/s?k={}', 'aw': 'https://wiki.archlinux.org/?search={}', 'ub': 'https://www.urbandictionary.com/define.php?term={}', 'wp': 'https://en.wikipedia.org/wiki/{}', 'yt': 'https://www.youtube.com/results?search_query={}', 'at': 'https://alternativeto.net/browse/search?q={}', '4g': 'https://boards.4channel.org/g/catalog#s={}' }
 
 # Colors / theming
-config.set("colors.webpage.darkmode.enabled", False)
+config.set("colors.webpage.darkmode.enabled", True)
 c.colors.webpage.darkmode.algorithm = 'brightness-rgb'
 c.hints.border = c15
 c.colors.completion.fg = c07
@@ -135,7 +135,6 @@ c.colors.tabs.pinned.selected.odd.bg = c04
 c.colors.tabs.pinned.selected.even.fg = c07
 c.colors.tabs.pinned.selected.even.bg = c04
 c.colors.webpage.bg = cbg
-c.colors.webpage.fg = cfg
 
 # Fonts
 c.fonts.default_family = 'Latin Modern Math'
