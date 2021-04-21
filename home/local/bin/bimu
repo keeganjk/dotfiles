@@ -1,0 +1,3 @@
+#!/bin/sh
+# Beet Import; MPD Update
+beet import "$1"; mpc update

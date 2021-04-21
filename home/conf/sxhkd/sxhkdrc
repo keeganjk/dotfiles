@@ -70,6 +70,10 @@ super + q
 super + c
   chromium
 
+# Power
+super + shift + s
+  pwr
+
 # Misc
 super + control + p
   passmenu
