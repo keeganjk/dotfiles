@@ -1,8 +1,10 @@
+directory: ~/aud
+
 paths: 
-    default: artist/$albumartist/$original_year~$album%aunique{}/$track~$title
-    singleton: artist/$artist/$title
-    albumtype:soundtrack: st/$original_year~$album/$track~$title
-    comp: comp/$original_year~$album%aunique{}/$track~$title
+    default: mus/artist/$albumartist_sort/$original_year~$album%aunique{}/$track~$title
+    singleton: mus/artist/$artist/$title
+    albumtype:soundtrack: mus/st/$original_year~$album/$track~$title
+    comp: mus/comp/$original_year~$album%aunique{}/$track~$title
 
 replace:
     '[\\/]': _
