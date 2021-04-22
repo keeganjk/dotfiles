@@ -32,7 +32,7 @@ config.set('content.cookies.accept', 'no-3rdparty', 'devtools://*')
 # External handling
 c.editor.command = ['st', '-e', 'nvim', '+call cursor({line}, {column})', '{file}']
 c.fileselect.handler = 'external'
-c.fileselect.folder.command = ['st', '-e', 'ranger', '-f', 'Misc Termsyn-12', '--choosedir={}']
+c.fileselect.folder.command = ['st', '-e', 'ranger', '-f', 'AW Greybeard-12', '--choosedir={}']
 
 # Tabs / pages
 c.tabs.show = 'multiple'
@@ -139,20 +139,20 @@ c.colors.webpage.bg = cbg
 # Fonts
 c.fonts.default_family = 'Latin Modern Math'
 c.fonts.default_size = '16px'
-c.fonts.completion.entry = '16px "Misc Termsyn"'
-c.fonts.completion.category = 'bold 16px "Misc Termsyn"'
-c.fonts.contextmenu = '16px "Misc Termsyn"'
-c.fonts.debug_console = '16px "Misc Termsyn"'
-c.fonts.downloads = '16px "Misc Termsyn"'
-c.fonts.hints = 'bold 16px "Misc Termsyn"'
-c.fonts.keyhint = '16px "Misc Termsyn"'
-c.fonts.messages.error = '16px "Misc Termsyn"'
-c.fonts.messages.info = '16px "Misc Termsyn"'
-c.fonts.messages.warning = '16px "Misc Termsyn"'
-c.fonts.prompts = '16px "Misc Termsyn"'
-c.fonts.statusbar = '16px "Misc Termsyn"'
-c.fonts.tabs.selected = '16px "Misc Termsyn"'
-c.fonts.tabs.unselected = '16px "Misc Termsyn"'
+c.fonts.completion.entry = '16px "AW Greybeard"'
+c.fonts.completion.category = 'bold 16px "AW Greybeard"'
+c.fonts.contextmenu = '16px "AW Greybeard"'
+c.fonts.debug_console = '16px "AW Greybeard"'
+c.fonts.downloads = '16px "AW Greybeard"'
+c.fonts.hints = 'bold 16px "AW Greybeard"'
+c.fonts.keyhint = '16px "AW Greybeard"'
+c.fonts.messages.error = '16px "AW Greybeard"'
+c.fonts.messages.info = '16px "AW Greybeard"'
+c.fonts.messages.warning = '16px "AW Greybeard"'
+c.fonts.prompts = '16px "AW Greybeard"'
+c.fonts.statusbar = '16px "AW Greybeard"'
+c.fonts.tabs.selected = '16px "AW Greybeard"'
+c.fonts.tabs.unselected = '16px "AW Greybeard"'
 c.fonts.web.family.standard = 'Latin Modern Math'
 c.fonts.web.family.fixed = 'Fira Code'
 c.fonts.web.family.serif = 'Latin Modern Math'
