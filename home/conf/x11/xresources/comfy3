@@ -69,7 +69,7 @@ dwm.nmaster:         1
 dwm.resizehints:     1 
 dwm.mfact:           0.55
 
-dmenu.font :          "Misc Termsyn-12"
+dmenu.font :          "AW Greybeard:pixelsize=13"
 dmenu.background :    cbg
 dmenu.foreground :    cfg
 dmenu.selbackground : c04
