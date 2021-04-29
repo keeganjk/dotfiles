@@ -1,2 +1,2 @@
 #!/bin/sh
-echo -e "shutdown now\nreboot" | dmenu | sh
+echo -e "shutdown now\nreboot\npkill xinit" | dmenu | sh
