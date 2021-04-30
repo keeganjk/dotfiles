@@ -19,13 +19,13 @@ super + shift + n
   mpc prev
 
 XF86AudioMute
-  amixer set Master toggle; killall dwmstatus; dwmstatus &
+  amixer set Master toggle; pkill -RTMIN+16
 
 XF86AudioLowerVolume
-  amixer set Master 1%-; killall dwmstatus; dwmstatus &
+  amixer set Master 1%-; pkill -RTMIN+16
 
 XF86AudioRaiseVolume
-  amixer set Master 1%+; killall dwmstatus; dwmstatus &
+  amixer set Master 1%+; pkill -RTMIN+16
 
 # Audio control
 super + a
