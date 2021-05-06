@@ -48,6 +48,7 @@ export GOPATH="$XDG_DATA_HOME"/go
 export XCOMPOSEFILE="$XDG_CONFIG_HOME/x11/xcompose"
 export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 export PASSWORD_STORE_DIR="$XDG_DATA_HOME/password_store"
+export RANGER_LOAD_DEFAULT_RC=FALSE
 
 # Miscellaneous
 export LS_OPTIONS="--color=auto"
@@ -74,3 +75,4 @@ alias l='ls $LS_OPTIONS -lA'
 alias qb='qutebrowser'
 alias nb='newsboat'
 alias pg='ps -fA | grep'
+alias gds='git diff --staged'

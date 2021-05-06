@@ -29,7 +29,7 @@ call plug#end()
 
 :function CompileLaTeX()
     :w
-    :!pdflatex % && [[ -z $(ls | grep .bib) ]] || biber %:r && pdflatex %
+    :!pdflatex % && [[ -z $(ls | grep .bib) ]] || biber %:r && pdflatex % || bibtex %:r; pdflatex %; pdflatex %
 :endfunction
 
 nnoremap <C-e> :call WriteEnglish()<CR>

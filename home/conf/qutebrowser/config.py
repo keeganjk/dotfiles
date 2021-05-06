@@ -42,8 +42,9 @@ c.url.default_page = 'about:blank'
 c.url.start_pages = 'about:blank'
 
 # Search engines
-searx_customized = 'https://searx.cedars.xyz/?preferences=eJx1VU2P3DYM_TX1xdigSQ49-VC0KBKgwAbdTa4CLXE0rGXRoWTPur--1Iy9K0-Qw2ggUnx8_LSFjJ6FMHUeIwqEJkD0M3jsMD58fWoCWwjl0sCc2fI4BczYNTTqGzMJv6zdXxASNiPmM7vuy-PTc5PghAlB7Ln7tclnHLHjZEEawTSHnAxHE_FiMvSbtWMyquSwoHQMen3H4pur1UPKq3II7Mmyw6UBt0C06MzmY4OgBH1QKUZPUUMayA6QkjEnCph--fCHtfYhL8Ys5JCLYFxHHFnWNgvEFDQbzpgtE6r2zD5gOwVY23FOZI25_qnqQoP6uCh4OVUQV4AKuei_z5yxxlvhzHxwQF4pQ8q18CQwQqBe1JbyPQ1etFqVo8zDypnTmQeIVaiaqB7FbxCCzpF6SWwJQjuiI1AxZuaQDhS9zyyCMddpwqzVlvpdiS_xLBaP1BHbxKd8AcHWkaBVtHUjEWE5gtSBwTRVlXr_ojalxd5Su6tut1elmx3GGrSn3M92wLx5fe2CvXR1iDvoyQmTe7t7ygH6PXlzv3oc03blCaPgxBXdheHH5JYULbyWOano3dXrZ3Xcyb7_-PG3l-rZGXqBcmxknPOtwxNFysTxUMoJUfLcY2XtEYdMI-6h1KnYPZaJogVbOoCN_K_a1pLvF4iHvqV4PwA983BAcVqY8vPc3gpYFXJv0W2ertlDSZTXGuFW_Z0rCl_IHTuQ4kBgK-CE_0UY60e3tVFGpC3HfaO8xrBTukE1GI_75S2aGrxMLuhKKZJ0TCLmdeQY1PhulErtQA6B7r4r1hkkT3U7va28KczKKXXfaHwINKA5cx5wLUF8jtfuQJOscChAzwI6H2K-_vO37lzdKCgqfbompWxme_sqrLpegw6w6h615c3v1qKm58_Hz2p1EYV8zcju_tPz85enXXvFDCejBFhGuPanyj5BOm8GjTY9qtn_or13Fg==&q={}'
-c.url.searchengines = {'DEFAULT': searx_customized, 'ddg': 'https://duckduckgo.com/?q={}', 'sx': 'https://searx.ir/{}', 'az': 'https://www.amazon.com/s?k={}', 'aw': 'https://wiki.archlinux.org/?search={}', 'ub': 'https://www.urbandictionary.com/define.php?term={}', 'wp': 'https://en.wikipedia.org/wiki/{}', 'yt': 'https://www.youtube.com/results?search_query={}', 'at': 'https://alternativeto.net/browse/search?q={}', '4g': 'https://boards.4channel.org/g/catalog#s={}', '4mu': 'https://boards.4channel.org/mu/catalog#s={}', 'yx': 'https://yandex.com/search/?text={}', 'yxi': 'https://yandex.com/images/search?text={}', 'dcc': 'https://www.dict.cc/?s={}' }
+homepage = 'https://searx.fmac.xyz'
+searx_customized = homepage + '/?preferences=eJxtVcGO2zgM_Zr1xUiB2R725MNiF0ULLDBFJ92rQUuMzVoSXUpOxvv1Szl2okznECOiycdH8ok2kLBnIYxNjwEFXOUg9DP02GA4fH-pHBtw-VDBnNiwnxwmbCry6tNOwq9Lc5QZK49pYNt8fX45VhFOGBHEDM1TlQb02HA0IJVgnF2KLYc24KVN0DWfwEWsLFOrL9mdURoGPX5g6as16hDTohQc92TY4vlgQcYK7BmCQdtuiTYcitA5tWLoKeSyqFcDxNS2W4W__f5Xjzgm8hjblpKeKZzJEs969nMkoyY7WwxlTEQPIZGpoxnYgbRtNITKQN89vSpQbkhcHf8L4MvQzI_OWFMsrZ5_KI0HWpQcdBunMPntX-Jx4cRx4BHCnaHMXittW6WOnBNfaKSOeXzIMpIZIRaF9cy9w3pysNSez5Sb8AChg1FTfqoBE7N7AFz6PrEIhlTEBdC5lV4dpW42I6athgx85iVrpsSCgbk0qFsiDiBLaQ0LwL2Ap48f_3gtcsM01p5EWAmcyK0zKEnuNkFrKd0qWxmhREoPuXav9wveOaDwhWzpZYw5pHNBK0u1Q-m3BpwEsY58ShcQrC0JGkVdtrfXofxa801UJwEPjjrBLULmbunRx_c1cmNxG_99VCvw7Xi9PZlsnR-7-FanvXM5r46kzuzio4gddzHhB9l5zCGqsuJQUN87GtkQuNqjJViVtXgOTuVW4hU38UZxAE2fH1sOv3j02rs6CYTodIXZ9yZ4I_CmN3tVumzIbpONd_OEKGnuyovFEwbBiQsva_va4okCZb3GNxqmnzOnh7qsXob867m-8ioXRgJJ05urQaGcUnlpYZoKIjlb5FnMQ_RJKIwEplSQFc6S3QPNnCs3y1vqFhK8u0DWwArD4369b9zJzWqKzbN2q_3TGNSgv5-_6Fq_CKW8Jr-EtWGom1PYZfB_yR8cjdgOnEZc7vA72FFAt4i037_9o0C6r1A07AXdqVU0Fg9r_9X2OavuGrZ6ZFnn74y5fuIW_U44vXPZ83j8-rLTqlQdqIn-Bw2cqHI=&q={}'
+c.url.searchengines = {'DEFAULT': searx_customized, 'az': 'https://www.amazon.com/s?k={}', 'ub': 'https://www.urbandictionary.com/define.php?term={}', 'at': 'https://alternativeto.net/browse/search?q={}', '4g': 'https://boards.4channel.org/g/catalog#s={}', '4mu': 'https://boards.4channel.org/mu/catalog#s={}', 'yx': 'https://yandex.com/search/?text={}', 'yxi': 'https://yandex.com/images/search?text={}', 'dcc': 'https://www.dict.cc/?s={}' }
 
 # Colors / theming
 config.set("colors.webpage.darkmode.enabled", True)
@@ -170,10 +171,9 @@ config.bind('t', 'set-cmd-text -s :open -t')
 config.bind('xb', 'config-cycle statusbar.show always never')
 config.bind('xt', 'config-cycle tabs.show always never')
 config.bind('xx', 'config-cycle statusbar.show always never;; config-cycle tabs.show always never')
-config.bind('W', ':open -w')
-config.bind('I', ':open -p')
-config.bind('z', ':set tabs.position left')
-config.bind('Z', ':set tabs.position top')
+config.bind('W', ':open -w ' + homepage)
+config.bind('I', ':open -p ' + homepage)
+config.bind('z', ':config-cycle tabs.position left top')
 
 # CSS Stylesheets
 #c.content.user_stylesheets = ['~/conf/qutebrowser/css/my.css']
