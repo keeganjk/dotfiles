@@ -14,6 +14,7 @@ home/conf/beets/state.pickle
 home/conf/anime-downloader/
 home/conf/Electron
 home/conf/Element
+!home/conf/Element/config.json
 home/conf/kritadisplayrc
 home/conf/libfm
 home/conf/menus
