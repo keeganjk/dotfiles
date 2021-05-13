@@ -21,7 +21,7 @@ pidof mpdscribble || mpdscribble
 # For GUI 
 picom -b
 xrdb -load "$XDG_CONFIG_HOME"/x11/xresources/comfy3
-hsetroot -tile ~/pic/bg/collection/bmp/294-desaturated-darkened-even-more-comfy3-00-on-black.png
+hsetroot -tile ~/pic/bg/collection/bmp/294-desaturated-darkened-even-more-comfy3-14-on-06.png
 killall dunst; dunst &
 pidof sxhkd || sxhkd &
 killall dwmblocks; dwmblocks &
