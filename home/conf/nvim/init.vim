@@ -4,6 +4,7 @@ set autoindent smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set ignorecase
 set mouse=n
 set nocompatible
 filetype plugin on
@@ -27,13 +28,8 @@ call plug#end()
     :set linebreak
 :endfunction
 
-:function CompileLaTeX()
-    :w
-    :!pdflatex % && [[ -z $(ls | grep .bib) ]] || biber %:r && pdflatex % || bibtex %:r; pdflatex %; pdflatex %
-:endfunction
-
 nnoremap <C-e> :call WriteEnglish()<CR>
-nnoremap <C-l> :call CompileLaTeX()<CR>
+nnoremap <C-l> :!latexmk -pdf<CR>
 nnoremap <C-p> :PlugInstall<CR>
 nnoremap <C-s> :%s//g<Left><Left>
 nnoremap <C-i> :so $MYVIMRC<CR>

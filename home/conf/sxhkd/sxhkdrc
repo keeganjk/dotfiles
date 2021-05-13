@@ -74,6 +74,12 @@ super + c
 super + shift + s
   pwr
 
+# Touchpad
+super + shift + t
+  xinput disable "SynPS/2 Synaptics TouchPad"
+super + control + t
+  xinput enable "SynPS/2 Synaptics TouchPad"
+
 # Misc
 super + control + p
   passmenu
