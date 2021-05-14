@@ -6,5 +6,5 @@
 
 config_version: 2
 settings:
-  fileselect.handler:
-    global: default
+  content.user_stylesheets:
+    global: null

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#DRIVERS="xf86-video-intel vulkan-intel" # Intel
+DRIVERS="xf86-video-amdgpu amdvlk lib32-amdvlk libva-mesa-driver lib32-mesa-driver mesa-vdpau lib32-mesa-vdpau" # AMD
+DISTRO_REPO="base-devel git wget xdg-user-dirs man-db man-pages sysstat reflector udisks2 ntfs-3g bc xorg-xfd acpi acpi_cal python-pip tlp tp_smapi alsa-utils iwd dhcpcd net-tools zsh zsh-autosuggestions zsh-syntax-highlighting xorg mesa lib32-mesa picom lxappearance dunst libnotify slock sxhkd xdotool maim xclip ibus mpd mpc ncmpcpp neovim ranger pcmanfm sxiv zathura zathura-djvu zathura-pdf-mupdf mpv gcolor2 qutebrowser texlive-most texlive-lang biber texinfo youtube-dl noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra otf-latinmodern-math cardo ttf-fira-code ttf-joypixels adobe-source-han-serif-cn-fonts adobe-source-han-serif-jp-fonts adobe-source-han-serif-kr-fonts $DRIVERS"
+AUR="libxft-bgra material-black-colors-theme ibus-mozc hsetroot terminus-font-tf1-otb ttf-kochi-substitute siji-git ttf-symbola termsyn-font themix-full-git"
+GIT_REPO=$'https://github.com/keeganjk/dwm|sudo make clean install\nhttps://github.com/keeganjk/st-luke|sudo make clean install\nhttps://github.com/keeganjk/dmenu|sudo make clean install\nhttps://github.com/keeganjk/dwmblocks|make; sudo make install'
