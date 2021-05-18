@@ -1,0 +1,10 @@
+#!/bin/bash
+MEM_TOTAL="$(head -n1 /proc/meminfo | sed 's/MemTotal:\s*//;s/\s*kB//')"
+MEM_FREE="$(grep -i -m1 free /proc/meminfo | sed 's/MemFree:\s*//;s/\s*kB//')"
+MEM_BUFFER="$(grep -i -m1 buffers /proc/meminfo | sed 's/Buffers:\s*//;s/\s*kB//')"
+MEM_CACHE="$(grep -i -m1 cached /proc/meminfo | sed 's/Cached:\s*//;s/\s*kB//')"
+MEM_USED=$(echo "$MEM_TOTAL-$MEM_FREE-$MEM_BUFFER-$MEM_CACHE" | bc)
+MEM_PERCENTAGE=$(echo "scale=1; 100*$MEM_USED/$MEM_TOTAL" | bc)
+MEM_PERCENTAGE=$(echo "$MEM_PERCENTAGE" | bc)
+MEM_PERCENTAGE=$(printf "%.1f\n" $MEM_PERCENTAGE)
+echo -n "$MEM_PERCENTAGE%"

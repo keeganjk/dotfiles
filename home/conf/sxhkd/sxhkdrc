@@ -58,10 +58,7 @@ super + shift + control + Print
 
 # Screenkey
 super + z
-  screenkey -f "Fira Code" &
-
-super + shift + z
-  pkill screenkey
+  pidof screenkey || screenkey -f "Fira Code" &
 
 # Browser
 super + q

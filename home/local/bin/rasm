@@ -1,0 +1,36 @@
+#!/bin/bash
+# Re-Audio/Sub for MKV files
+# Run this script from the directory you want to work in
+# Dependency: mkvtoolnix-cli
+# Audio and subtitle tracks can be checked in a video player like mpv in its audio track selection or in a program like mkvtoolnix-gui
+
+main() {
+    command="find . -name \"*.mkv\" -exec mkvpropedit {} "$commandAudioPart" "$commandSubtitlePart" \;"
+    echo "$command"
+    eval "$command"
+}
+
+audio() {
+    printf "Which audio track is currently the default? "; read defaultAudioTrack
+    printf "Which audio track do you want to be made default? "; read newDefaultAudioTrack
+    commandAudioPart="--edit track:a$defaultAudioTrack --set flag-default=0 --edit track:a$newDefaultAudioTrack --set flag-default=1"
+}
+
+subtitle() {
+    printf "Which subtitle track is currently the default? (put 0 if there is no subtitle track) "; read defaultSubtitleTrack
+    printf "Which subtitle track do you want to be made default? "; read newDefaultSubtitleTrack
+    if [[ "$defaultSubtitleTrack" != "0" ]]; then
+        commandSubtitlePart="--edit track:s$defaultSubtitleTrack --set flag-default=0 --edit track:s$newDefaultSubtitleTrack --set flag-default=1"
+    else
+        commandSubtitlePart="--edit track:s$newDefaultSubtitleTrack --set flag-default=1"
+    fi
+
+}
+
+printf "Change default audio track? [Y/n] "; read changeAudio
+[[ "${changeAudio,,}" =~ [nN] ]] || audio
+
+printf "Change default subtitle track? [Y/n] "; read changeSubtitle
+[[ "${changeSubtitle,,}" =~ [nN] ]] || subtitle
+
+main
