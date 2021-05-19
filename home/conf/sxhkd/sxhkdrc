@@ -73,7 +73,7 @@ super + shift + s
 
 # Change xresources
 super + control + x
-  xrdb -load $(ls ~/.config/x11/xresources | dmenu)
+  xrsw
 
 # Touchpad
 super + shift + t
