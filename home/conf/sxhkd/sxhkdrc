@@ -69,7 +69,11 @@ super + c
 
 # Power
 super + shift + s
-  pwr
+  echo -e "shutdown now\nreboot\npkill xinit" | dmenu | sh
+
+# Change xresources
+super + control + x
+  xrdb -load $(ls ~/.config/x11/xresources | dmenu)
 
 # Touchpad
 super + shift + t
