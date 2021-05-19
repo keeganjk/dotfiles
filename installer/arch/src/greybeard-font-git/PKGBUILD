@@ -1,0 +1,27 @@
+pkgname=greybeard
+pkgver=r8.b50a975
+pkgrel=1
+pkgdesc="A chunky monospaced bitmap programming font for all you pixel-perfect nerds who don't like eyestrain."
+arch=('any')
+url="https://github.com/flowchartsman/greybeard.git"
+license=('MIT License')
+depends=()
+makedepends=('perl' 'xorg-bdftopcf' 'git' 'xorg-mkfontscale')
+source=("greybeard::git://github.com/flowchartsman/greybeard.git")
+md5sums=('SKIP')
+
+pkgver() {
+    cd "$pkgname"
+    printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+
+build() {
+    cd "$pkgname"/build
+    ./configure --prefix="$pkgdir/usr"
+    make
+}
+
+package() {
+    cd "$pkgname"/build
+    make install
+}

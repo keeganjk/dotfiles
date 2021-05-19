@@ -1,0 +1,18 @@
+#!/bin/sh
+. /etc/os-release
+ART_DIR="$HOME/.local/bin/poserfetch_ascii"
+ART_CMD="cat $ART_DIR/$ID"
+
+#[[ "$@" == *"-s"* ]] && echo "$@" | sed 's/.*-s\s//g' | 
+while getopts ":s:" i; do
+    case "$i" in
+        s) 
+            echo "$OPTARG"
+            ART_CMD="$ART_CMD | sed 's/'" 
+    esac
+done
+
+case $ID in
+    arch)
+        eval "$ART_CMD"
+esac

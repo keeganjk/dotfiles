@@ -32,7 +32,7 @@ config.set('content.cookies.accept', 'no-3rdparty', 'devtools://*')
 # External handling
 c.editor.command = ['st', '-e', 'nvim', '+call cursor({line}, {column})', '{file}']
 c.fileselect.handler = 'external'
-c.fileselect.folder.command = ['st', '-f', 'AW Greybeard-12', '-e', 'ranger', '--choosedir={}']
+c.fileselect.folder.command = ['st', '-f', '"AW Greybeard-10"', '-e', 'ranger', '--choosedir={}']
 
 # Tabs / pages
 c.tabs.show = 'multiple'

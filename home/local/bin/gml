@@ -1,0 +1,4 @@
+#!/bin/sh
+# GaMe Launcher
+
+echo -e "minetest\nairshipper\nvitetris\nsupertux2\nsupertuxkart\n0ad\nxonotic\nopenttd\ncataclysm" | dmenu | sh
