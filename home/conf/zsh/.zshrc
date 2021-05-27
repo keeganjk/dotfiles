@@ -39,12 +39,7 @@ bindkey "\e[B" history-beginning-search-forward-end
 zstyle ':completion:*' menu select
 _comp_options+=(globdots) # With hidden files
 fpath=("$ZDOTDIR/prompts" $fpath)
-<<<<<<< HEAD
-##autoload -Uz prompt_purification_setup && prompt_purification_setup
-#autoload -Uz prompt_purification_setup_mod && prompt_purification_setup_mod
-=======
 #autoload -Uz prompt_purification_setup && prompt_purification_setup
 autoload -Uz prompt_purification_setup_mod && prompt_purification_setup_mod
->>>>>>> 5b61cf30ef567f84cb81eb3399ba0c3f78ad55e1
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

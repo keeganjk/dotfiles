@@ -28,6 +28,7 @@ call plug#end()
     :set linebreak
 :endfunction
 
+nnoremap <C-c> :!cc %<CR>
 nnoremap <C-e> :call WriteEnglish()<CR>
 nnoremap <C-l> :!latexmk -pdf<CR>
 nnoremap <C-p> :PlugInstall<CR>

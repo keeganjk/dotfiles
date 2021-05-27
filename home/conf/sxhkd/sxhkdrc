@@ -29,7 +29,7 @@ XF86AudioRaiseVolume
 
 # Audio control
 super + a
-  st -c "fSt" -e 'alsamixer'
+  st -c "fSt" -e 'audtui'
 
 # Terminal, with large and readable font (mainly for screen recordings)
 super + control + Return
@@ -58,7 +58,7 @@ super + shift + control + Print
 
 # Screenkey
 super + z
-  pidof screenkey || screenkey -f "Fira Code" &
+  pkill screenkey || screenkey -f 'Fira Code'
 
 # Browser
 super + q

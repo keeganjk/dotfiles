@@ -10,6 +10,7 @@ export QT_IM_MODULE=ibus
 ibus-daemon -drx --panel /usr/lib/ibus/ibus-ui-gtk3
 setxkbmap -option compose:ralt
 setxkbmap -option caps:swapescape
+xset r rate 300 50
 
 # For audio
 pidof pulseaudio || pulseaudio -D
