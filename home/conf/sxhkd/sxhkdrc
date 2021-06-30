@@ -81,6 +81,16 @@ super + shift + t
 super + control + t
   xinput enable "SynPS/2 Synaptics TouchPad"
 
+# Rotate screen
+super + control + h
+  xrandr -o left
+super + control + j
+  xrandr -o inverted
+super + control + k
+  xrandr -o normal
+super + control + l
+  xrandr -o right
+
 # Misc
 super + control + p
   passmenu

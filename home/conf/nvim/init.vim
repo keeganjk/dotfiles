@@ -31,6 +31,7 @@ call plug#end()
 nnoremap <C-c> :!cc %<CR>
 nnoremap <C-e> :call WriteEnglish()<CR>
 nnoremap <C-l> :!latexmk -pdf<CR>
+nnoremap <C-b> :!pandoc % -t beamer -o pres.pdf<CR>
 nnoremap <C-p> :PlugInstall<CR>
 nnoremap <C-s> :%s//g<Left><Left>
 nnoremap <C-i> :so $MYVIMRC<CR>

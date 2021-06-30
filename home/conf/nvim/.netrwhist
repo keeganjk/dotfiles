@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/jjj/.config'
 let g:netrw_dirhist_3='/etc/httpd/conf'
 let g:netrw_dirhist_2='/hdd2/doc/src/git/st-luke'
 let g:netrw_dirhist_1='/hdd2/doc/src/git'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_8='/home/jjj/doc/src/git/barpyrus/barpyrus'
 let g:netrw_dirhist_7='/home/jjj/doc/src/git/dotfiles/.git'
 let g:netrw_dirhist_6='/home/jjj/doc/src/git/dotfiles/home/conf/nitrogen'
 let g:netrw_dirhist_5='/home/jjj/doc/src/git/rasm'
-let g:netrw_dirhist_4='/home/jjj/doc/src/git/dotfiles/.git'
